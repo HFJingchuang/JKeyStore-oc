@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
-#import "NAChloride.h"
 #import "Wallet.h"
 #import "Seed.h"
 
@@ -20,6 +19,8 @@
 
 int main(int argc, char * argv[])
 {
+    
+    NSError *error = nil;
     //创建钱包和密钥
     NSString *secret = @"shExMjiMqza4DdMaSg3ra9vxWPZsQ";
     Seed * seed = [Seed alloc];
@@ -30,9 +31,11 @@ int main(int argc, char * argv[])
     KeyStoreFileModel *keyStoreFile = [KeyStore createLight:@"Key123456" wallet:wallet];
     
     //转换为Json
-    NSLog(@"json:%@",[keyStoreFile toJSONString]);
+    NSString* jsonStr =[keyStoreFile toJSONString];
+    NSLog(@"json:%@",jsonStr);
     
     //从KeyStoreFile创建Wallet
+    keyStoreFile = [[KeyStoreFileModel alloc] initWithString:jsonStr error:&error];
     Wallet *decryptEthECKeyPair = [KeyStore decrypt:@"Key123456" wallerFile:keyStoreFile];
     
     //从Wallet中解析地址
@@ -46,11 +49,9 @@ int main(int argc, char * argv[])
 
     //QRcode测试，使用ZXingObjc模块
     //编码部分 NSString 到 CGImageRef
-    NSString* qrcodedata = [keyStoreFile toJSONString];
     CGImageRef image;
-    NSError *error = nil;
     ZXMultiFormatWriter *writer = [ZXMultiFormatWriter writer];
-    ZXBitMatrix* QRCodeResult = [writer encode:qrcodedata
+    ZXBitMatrix* QRCodeResult = [writer encode:jsonStr
                                   format:kBarcodeFormatQRCode
                                    width:800
                                   height:800

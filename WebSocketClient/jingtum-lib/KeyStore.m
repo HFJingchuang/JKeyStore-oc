@@ -15,6 +15,7 @@
 #import "NSString+Base58.h"
 
 #import <CommonCrypto/CommonCrypto.h>
+#import <CommonCrypto/CommonKeyDerivation.h>
 
 #import "NADigest.h"
 #import "NAKeccak.h"
@@ -143,9 +144,22 @@ static NSString* SCRYPT = @"scrypt";
     }
     else if([kdfparams prf] != nil && [kdfparams c]!=0)
     {
-        return nil;//暂缺
+        //未与安卓同步测试
+        int dklen = [kdfparams dklen];
+        int c = [[kdfparams n]intValue];
+        NSData *salt = [self convertBytesStringToData:[kdfparams salt]];
+        NSString *prf = [kdfparams prf];
+        if([prf isEqualToString: @"hmac-sha256"])
+        {
+            NSLog(@"Unsupported prf:%@",prf);
+            return nil;
+        }
+        else
+        {
+            NSData *passwordByte = [password dataUsingEncoding:NSUTF8StringEncoding];
+            derivedKey = [self generateAes128CtrDerivedKey:passwordByte salt:salt c:c];
+        }
     }
-    
     NSData *derivedMac = [self generateMac:derivedKey cipherText:cipherText];
     if(![derivedMac isEqual:mac])
     {
@@ -216,6 +230,16 @@ static NSString* SCRYPT = @"scrypt";
     
     return result;
 }
++ (NSData *)generateAes128CtrDerivedKey:(NSData *)password salt:(NSData *)salt c:(int)c
+{
+    NSMutableData *hashKeyData = [NSMutableData dataWithLength:CC_SHA256_DIGEST_LENGTH];
+    //success = 0 其他状态看kCCParamError
+    int result = CCKeyDerivationPBKDF(kCCPBKDF2, password.bytes, password.length, salt.bytes, salt.length, kCCPRFHmacAlgSHA256, c, hashKeyData.mutableBytes, hashKeyData.length);
+    NSMutableData *temp = [[NSMutableData alloc] init];
+    [temp appendData:salt];
+    [temp appendData:hashKeyData];
+    return temp;
+}
 
 +(NSData*) generateMac:(NSData*)derivedKey cipherText:(NSData*)cipherText
 {
@@ -224,6 +248,7 @@ static NSString* SCRYPT = @"scrypt";
     [result appendData:cipherText];
     return [NASHA3 SHA3ForData:result algorithm:NASHA3Algorithm_Keccak_256];
 }
+
 + (NSData *)cryptData:(NSData *)dataIn
             operation:(CCOperation)operation  // kCC Encrypt, Decrypt
                  mode:(CCMode)mode            // kCCMode ECB, CBC, CFB, CTR, OFB, RC4, CFB8
