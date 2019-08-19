@@ -28,7 +28,7 @@
 +(NSString *)getUUID;
 
 //AES加密解密部分
-
++(NSData *)cryptData:(NSData *)dataIn  operation:(CCOperation)operation mode:(CCMode)mode algorithm:(CCAlgorithm)algorithm padding:(CCPadding)padding keyLength:(size_t)keyLength iv:(NSData *)iv key:(NSData *)key error:(NSError **)error;
 
 //KECCAK256 MAC加密部分
 +(NSData*) generateMac:(NSData*)derivedKey cipherText:(NSData*)cipherText;

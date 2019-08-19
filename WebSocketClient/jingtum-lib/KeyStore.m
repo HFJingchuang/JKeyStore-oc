@@ -143,7 +143,7 @@ static NSString* SCRYPT = @"scrypt";
     }
     else if([kdfparams prf] != nil && [kdfparams c]!=0)
     {
-        
+        return nil;//暂缺
     }
     
     NSData *derivedMac = [self generateMac:derivedKey cipherText:cipherText];
