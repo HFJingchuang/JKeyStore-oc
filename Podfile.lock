@@ -1,0 +1,43 @@
+PODS:
+  - CoreBitcoin (0.6.8.1):
+    - ISO8601DateFormatter
+    - OpenSSL-Universal (= 1.0.1.16)
+  - ISO8601DateFormatter (0.8)
+  - JSONModel (1.8.0)
+  - libsodium (1.0.12)
+  - NAChloride (2.3.0):
+    - libsodium
+  - OpenSSL-Universal (1.0.1.16)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - CoreBitcoin (from `https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec`)
+  - JSONModel
+  - NAChloride
+  - SocketRocket
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ISO8601DateFormatter
+    - JSONModel
+    - libsodium
+    - NAChloride
+    - OpenSSL-Universal
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  CoreBitcoin:
+    :podspec: https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec
+
+SPEC CHECKSUMS:
+  CoreBitcoin: 4ac6f6a61e543f08399c2fe57496d4fdcbaf74f9
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
+  NAChloride: e290c884034a2be2c43f31dec1097ad3152d982a
+  OpenSSL-Universal: 85ef63bf81d0741b03c8719cd29685c37c59518d
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 86309df2261cfe2f190b05cb93f6cc663c5113cc
+
+COCOAPODS: 1.7.5
