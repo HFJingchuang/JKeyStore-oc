@@ -9,12 +9,16 @@ PODS:
     - libsodium
   - OpenSSL-Universal (1.0.1.16)
   - SocketRocket (0.5.1)
+  - ZXingObjC (3.6.5):
+    - ZXingObjC/All (= 3.6.5)
+  - ZXingObjC/All (3.6.5)
 
 DEPENDENCIES:
   - CoreBitcoin (from `https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec`)
   - JSONModel
   - NAChloride
   - SocketRocket
+  - ZXingObjC (~> 3.6.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -24,6 +28,7 @@ SPEC REPOS:
     - NAChloride
     - OpenSSL-Universal
     - SocketRocket
+    - ZXingObjC
 
 EXTERNAL SOURCES:
   CoreBitcoin:
@@ -37,7 +42,8 @@ SPEC CHECKSUMS:
   NAChloride: e290c884034a2be2c43f31dec1097ad3152d982a
   OpenSSL-Universal: 85ef63bf81d0741b03c8719cd29685c37c59518d
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 86309df2261cfe2f190b05cb93f6cc663c5113cc
+PODFILE CHECKSUM: 7e42478eb45966c0b49bbfa5438fbf57c46d319f
 
 COCOAPODS: 1.7.5

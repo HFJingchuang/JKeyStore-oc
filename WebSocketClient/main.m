@@ -13,64 +13,29 @@
 #import "Wallet.h"
 #import "Seed.h"
 
-#import "NADigest.h"
-#import "NAKeccak.h"
-//#import "NASHA3.h"
-
 #import "KeyStoreFile.h"
 #import "KeyStore.h"
 
-int main(int argc, char * argv[]) {
-    /*
+#import "ZXingObjC.h"
 
-    
-    
-    NSLog(@"address:%@",[keystore address]);
-    NSLog(@"id:%@",[keystore id]);
-    NSLog(@"version:%d",[keystore version]);
-    NSLog(@"crypto:%@",[[keystore crypto]cipher]);
-    NSLog(@"c:%d",[[[keystore crypto]kdfparams]c]);
-    NSLog(@"json:%@",[keystore toJSONString]);
-    
-    
-
-    NAChlorideInit();
-    NSString *secret = @"shExMjiMqza4DdMaSg3ra9vxWPZsQ";
-    Seed * seed = [Seed alloc];
-    Keypairs *keypairs = [seed deriveKeyPair:secret];
-    Wallet *wallet = [[Wallet alloc]initWithKeypairs:keypairs private:secret];
-    NSData *data =[@"Key123456" dataUsingEncoding:NSUTF8StringEncoding];
-    NSData *sha = [NAKeccak SHA3ForData:data digestBitLength:512];
-    
-    
-    NSLog(@"git test");
-    
-    NSData *key = [@"Key123456" dataUsingEncoding:NSUTF8StringEncoding];
-    NSData *salt = [NARandom randomData:32];
-    NSError *error = nil;
-    NSData *derivedKey = [NAScrypt scrypt:key salt:salt N:1<<12 r:8 p:6 length:32 error:&error];
-    NSData *encryoptKey =[derivedKey subdataWithRange:NSMakeRange(0, 16)];
-    NSData *iv = [NARandom randomData:16];
-    NSData *privateKeyBytes = [[wallet secret] dataUsingEncoding:NSUTF8StringEncoding];
-    
-    NSLog(@"salt:%@",salt);
-    NSLog(@"derivedKey:%@",derivedKey);
-    NSLog(@"encryoptKey:%@",encryoptKey);
-    NSLog(@"iv:%@",iv);
-    NSLog(@"privateKeyBytes:%@",privateKeyBytes);
-    */
-    //NSLog(@"%@",derivedKey);
-    
-    NAChlorideInit();
+int main(int argc, char * argv[])
+{
+    //创建钱包和密钥
     NSString *secret = @"shExMjiMqza4DdMaSg3ra9vxWPZsQ";
     Seed * seed = [Seed alloc];
     Keypairs *keypairs = [seed deriveKeyPair:secret];
     Wallet *wallet = [[Wallet alloc]initWithKeypairs:keypairs private:secret];
     
+    //创建KeyStoreFile
     KeyStoreFileModel *keyStoreFile = [KeyStore createLight:@"Key123456" wallet:wallet];
+    
+    //转换为Json
     NSLog(@"json:%@",[keyStoreFile toJSONString]);
+    
+    //从KeyStoreFile创建Wallet
     Wallet *decryptEthECKeyPair = [KeyStore decrypt:@"Key123456" wallerFile:keyStoreFile];
     
+    //从Wallet中解析地址
     Keypairs *temp = [decryptEthECKeyPair keypairs] ;
     NSData *bytes = [[temp pub] BTCHash160];
     BTCAddress *btcAddress = [BTCPublicKeyAddress addressWithData:bytes];
@@ -79,9 +44,42 @@ int main(int argc, char * argv[]) {
     NSLog(@"address: %@", address);
     NSLog(@"PrivateKey:%@",[decryptEthECKeyPair secret]);
 
-    NSString* jsondata = @"{\"address\":\"jHY6aRcs7J6KnfgqD4FVwTQ247boj9nbDZ\",\"id\":\"1c1bf720-82fd-4ed3-bddf-72ebbc7b4262\",\"version\":3,\"crypto\":{\"cipher\":\"aes-128-ctr\",\"ciphertext\":\"0bc63928ace81eb82869d5008372830191bad7706ef2101665d009a9e6\",\"cipherparams\":{\"iv\":\"2ae846f498bbb6ff6a7d572d51cdd74b\"},\"kdf\":\"scrypt\",\"kdfparams\":{\"dklen\":32,\"n\":4096,\"p\":6,\"r\":8,\"salt\":\"944611340b628e66850eff427ec0df006788d2aa7e3809b383dbe05282edd723\"},\"mac\":\"ad1343750c048c96b019dc09dd6a5b93d5664cfd5147dd052ec040546d53617f\"}}";
-    NSError* err = nil;
-    KeyStoreFileModel* keystore = [[KeyStoreFileModel alloc] initWithString:jsondata error:&err];
+    //QRcode测试，使用ZXingObjc模块
+    //编码部分 NSString 到 CGImageRef
+    NSString* qrcodedata = [keyStoreFile toJSONString];
+    CGImageRef image;
+    NSError *error = nil;
+    ZXMultiFormatWriter *writer = [ZXMultiFormatWriter writer];
+    ZXBitMatrix* QRCodeResult = [writer encode:qrcodedata
+                                  format:kBarcodeFormatQRCode
+                                   width:800
+                                  height:800
+                                   error:&error];
+    if (QRCodeResult)
+    {
+        image = CGImageRetain([[ZXImage imageWithMatrix:QRCodeResult] cgimage]);
+        //This CGImageRef image can be placed in a UIImage, NSImage, or written to a file.
+    }
+    else
+    {
+        NSString *errorMessage = [error localizedDescription];
+        NSLog(@"QRCode生成失败，错误码%@",errorMessage);
+    }
+    
+    //解码部分 CGImageRef 到 NSString
+    
+    ZXLuminanceSource *source = [[ZXCGImageLuminanceSource alloc] initWithCGImage:image];
+    ZXBinaryBitmap *bitmap = [ZXBinaryBitmap binaryBitmapWithBinarizer:[ZXHybridBinarizer binarizerWithSource:source]];
+    // There are a number of hints we can give to the reader, including
+    // possible formats, allowed lengths, and the string encoding.
+    ZXDecodeHints *hints = [ZXDecodeHints hints];
+    
+    //输出结果
+    ZXMultiFormatReader *reader = [ZXMultiFormatReader reader];
+    ZXResult *StringResult = [reader decode:bitmap
+                                hints:hints
+                                error:&error];
+    NSLog(@"QRCode = %d，%@",StringResult.barcodeFormat,StringResult.text);
     
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
