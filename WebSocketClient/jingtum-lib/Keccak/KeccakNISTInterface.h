@@ -22,11 +22,10 @@ typedef enum { SUCCESS = 0, FAIL = 1, BAD_HASHLEN = 2 } HashReturn;
 
 typedef spongeState hashState;
 
-
 HashReturn Init(hashState *state, int hashbitlen);
 
-HashReturn Update(hashState *state, const BitSequence *data, DataLength databitlen);
-
 HashReturn Final(hashState *state, BitSequence *hashval);
+
+HashReturn Update(hashState *state, const BitSequence *data, DataLength databitlen);
 
 #endif
