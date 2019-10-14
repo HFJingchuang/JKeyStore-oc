@@ -17,7 +17,6 @@
 #import <CommonCrypto/CommonCrypto.h>
 #import <CommonCrypto/CommonKeyDerivation.h>
 
-#import "NADigest.h"
 #import "NAKeccak.h"
 #import "NASHA3.h"
 

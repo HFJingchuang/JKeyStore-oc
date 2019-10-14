@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = "OpenSSL-Universal";
+			productName = "OpenSSL-Universal";
 		};
 /* End PBXAggregateTarget section */
 
@@ -963,39 +964,39 @@
 		0319F83492B2E33FC5E6E7133182257F /* libsodium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libsodium-dummy.m"; sourceTree = "<group>"; };
 		031D27476990604009AFCD0EB249518C /* ZXPDF417Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Writer.h; path = ZXingObjC/pdf417/ZXPDF417Writer.h; sourceTree = "<group>"; };
 		031F50F408E5F50110C9F508B3A53895 /* ZXRSSExpandedCurrentParsingState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedCurrentParsingState.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedCurrentParsingState.m; sourceTree = "<group>"; };
-		0349C39CA01F7DFBCE45372B4FB0273C /* crypto_scalarmult.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_scalarmult.c; path = src/libsodium/crypto_scalarmult/crypto_scalarmult.c; sourceTree = "<group>"; };
+		0349C39CA01F7DFBCE45372B4FB0273C /* crypto_scalarmult.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_scalarmult.c; path = src/libsodium/crypto_scalarmult/crypto_scalarmult.c; sourceTree = "<group>"; };
 		03554C8474F0D413F2FDE5DA547FFAEB /* ZXVINResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVINResultParser.m; path = ZXingObjC/client/result/ZXVINResultParser.m; sourceTree = "<group>"; };
 		03A4C34689487D113A9B10FA9183D298 /* ZXWifiResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXWifiResultParser.h; path = ZXingObjC/client/result/ZXWifiResultParser.h; sourceTree = "<group>"; };
-		03C64087099CA957802D48EF036CD468 /* blake2b-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-ref.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c"; sourceTree = "<group>"; };
+		03C64087099CA957802D48EF036CD468 /* blake2b-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "blake2b-ref.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c"; sourceTree = "<group>"; };
 		03D5EBC7C0B14C5EFBD79BCED5C41C0D /* ZXingObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXingObjC-prefix.pch"; sourceTree = "<group>"; };
 		03DBB6982824925434DF8245460118FB /* crypto_verify_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_verify_64.h; path = src/libsodium/include/sodium/crypto_verify_64.h; sourceTree = "<group>"; };
 		0403EA51167E95A24FBAED688B6077AB /* ZXAI01weightDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01weightDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01weightDecoder.m; sourceTree = "<group>"; };
 		040E24C6015A8ED8CB2368BE731766E1 /* BTCBase58.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCBase58.m; path = CoreBitcoin/BTCBase58.m; sourceTree = "<group>"; };
-		04212064E41A4FA598C40E9DA9845A39 /* onetimeauth_poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = onetimeauth_poly1305.c; path = src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c; sourceTree = "<group>"; };
+		04212064E41A4FA598C40E9DA9845A39 /* onetimeauth_poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = onetimeauth_poly1305.c; path = src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c; sourceTree = "<group>"; };
 		042A3BCBFD8135A1F96611E8F6DED01B /* crypto_auth_hmacsha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_auth_hmacsha256.h; path = src/libsodium/include/sodium/crypto_auth_hmacsha256.h; sourceTree = "<group>"; };
-		04E6F22C4FCDCD390048877C2B7DF8D6 /* hash_sha256_cp.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hash_sha256_cp.c; path = src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c; sourceTree = "<group>"; };
+		04E6F22C4FCDCD390048877C2B7DF8D6 /* hash_sha256_cp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash_sha256_cp.c; path = src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c; sourceTree = "<group>"; };
 		055004BB163F9411A3445EAE70F5974C /* ZXDataMatrixDataBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDataBlock.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDataBlock.m; sourceTree = "<group>"; };
-		055BCC6A81883B23790589DACB1BD287 /* pwhash_scryptsalsa208sha256_nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwhash_scryptsalsa208sha256_nosse.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c; sourceTree = "<group>"; };
+		055BCC6A81883B23790589DACB1BD287 /* pwhash_scryptsalsa208sha256_nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwhash_scryptsalsa208sha256_nosse.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c; sourceTree = "<group>"; };
 		05B49917BD0E349349AFCFB19C17125F /* NASecretBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NASecretBox.m; path = NAChloride/NASecretBox.m; sourceTree = "<group>"; };
-		064679CB6CC2E99877351BAA2B15FBCE /* hash_sha512.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hash_sha512.c; path = src/libsodium/crypto_hash/sha512/hash_sha512.c; sourceTree = "<group>"; };
-		06686ECA34DACF692E1B9F1910BAD842 /* crypto_box_easy.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_box_easy.c; path = src/libsodium/crypto_box/crypto_box_easy.c; sourceTree = "<group>"; };
+		064679CB6CC2E99877351BAA2B15FBCE /* hash_sha512.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash_sha512.c; path = src/libsodium/crypto_hash/sha512/hash_sha512.c; sourceTree = "<group>"; };
+		06686ECA34DACF692E1B9F1910BAD842 /* crypto_box_easy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_box_easy.c; path = src/libsodium/crypto_box/crypto_box_easy.c; sourceTree = "<group>"; };
 		06A5ABDF06E5D76CEED141FC4319A6C9 /* BTCBase58.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCBase58.h; path = CoreBitcoin/BTCBase58.h; sourceTree = "<group>"; };
 		06ED899D7DCA9172D16B35ED74C6D8C7 /* ZXByQuadrantReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXByQuadrantReader.m; path = ZXingObjC/multi/ZXByQuadrantReader.m; sourceTree = "<group>"; };
 		072264A9CBE49E384DCE82FDF28E2B69 /* salsa20_xmm6int-sse2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "salsa20_xmm6int-sse2.h"; path = "src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.h"; sourceTree = "<group>"; };
-		07BEAE72EC853FED6999063BD2FB4616 /* shorthash_siphash24.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shorthash_siphash24.c; path = src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c; sourceTree = "<group>"; };
+		07BEAE72EC853FED6999063BD2FB4616 /* shorthash_siphash24.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = shorthash_siphash24.c; path = src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c; sourceTree = "<group>"; };
 		088134371FADDAD8C7CA54E0882A7CE5 /* NSData+BTCData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+BTCData.h"; path = "CoreBitcoin/NSData+BTCData.h"; sourceTree = "<group>"; };
 		08BF466B72CC31BECAA7E1CD6613A6FC /* ZXDataMatrixDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDecoder.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecoder.h; sourceTree = "<group>"; };
 		08DFB036A439ECA90F5D5C4355429488 /* BTCBlockchainInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCBlockchainInfo.m; path = CoreBitcoin/BTCBlockchainInfo.m; sourceTree = "<group>"; };
 		08ED469D13C7E21ECAFD95E11C0E9201 /* ZXQRCodeDataMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDataMask.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDataMask.m; sourceTree = "<group>"; };
 		08F03FF1FCB7AACD540BD71D29A9714B /* ZXRSSExpandedGeneralAppIdDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedGeneralAppIdDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedGeneralAppIdDecoder.m; sourceTree = "<group>"; };
-		09401ED27C9FD88C3A3213C49F3C0849 /* shorthash_siphashx24.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shorthash_siphashx24.c; path = src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c; sourceTree = "<group>"; };
+		09401ED27C9FD88C3A3213C49F3C0849 /* shorthash_siphashx24.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = shorthash_siphashx24.c; path = src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c; sourceTree = "<group>"; };
 		0A301D3F7A80789782B9EFD1CFECE4F8 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = "include-ios/openssl/ec.h"; sourceTree = "<group>"; };
 		0A79900B9ECE82E8203751A6FFF4E0DB /* runtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = runtime.h; path = src/libsodium/include/sodium/runtime.h; sourceTree = "<group>"; };
 		0A813D7FE3527B9094F9F5D0AB3855BE /* BTCPaymentMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPaymentMethod.h; path = CoreBitcoin/BTCPaymentMethod.h; sourceTree = "<group>"; };
 		0A86F882A6C3FF9EB9B09BF50B6814C8 /* ZXCalendarParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCalendarParsedResult.h; path = ZXingObjC/client/result/ZXCalendarParsedResult.h; sourceTree = "<group>"; };
 		0B8180E7DE70033D6D86A444A534E934 /* crypto_core_hsalsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_hsalsa20.h; path = src/libsodium/include/sodium/crypto_core_hsalsa20.h; sourceTree = "<group>"; };
 		0BCEB9D46D82D2797C702BDCA5180FAB /* crypto_generichash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_generichash.h; path = src/libsodium/include/sodium/crypto_generichash.h; sourceTree = "<group>"; };
-		0CAC411B9DC42AE0E5397C40F77042AB /* pwhash_argon2i.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwhash_argon2i.c; path = src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c; sourceTree = "<group>"; };
+		0CAC411B9DC42AE0E5397C40F77042AB /* pwhash_argon2i.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwhash_argon2i.c; path = src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c; sourceTree = "<group>"; };
 		0D042C9083345F6C8B36BEC14704D72B /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = "include-ios/openssl/asn1_mac.h"; sourceTree = "<group>"; };
 		0D35F84433501B03E873DC9029889393 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = "include-ios/openssl/mdc2.h"; sourceTree = "<group>"; };
 		0DF6FB5A2DF9C43EEC40E833FCE7B411 /* ZXingObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjC.h; path = ZXingObjC/ZXingObjC.h; sourceTree = "<group>"; };
@@ -1011,7 +1012,7 @@
 		0FC455F4BCF31FF52B447CEA3A5F29CB /* ZXAztecWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecWriter.h; path = ZXingObjC/aztec/ZXAztecWriter.h; sourceTree = "<group>"; };
 		1033AF47F49AD699E637FF22F2C257FD /* ZXQRCodeMatrixUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeMatrixUtil.h; path = ZXingObjC/qrcode/encoder/ZXQRCodeMatrixUtil.h; sourceTree = "<group>"; };
 		104C511F16B4DC25FDB787ABB0BB7B69 /* ZXVEventResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVEventResultParser.m; path = ZXingObjC/client/result/ZXVEventResultParser.m; sourceTree = "<group>"; };
-		1141E4615311B471C5213918E51EB984 /* argon2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = argon2.c; path = src/libsodium/crypto_pwhash/argon2/argon2.c; sourceTree = "<group>"; };
+		1141E4615311B471C5213918E51EB984 /* argon2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = argon2.c; path = src/libsodium/crypto_pwhash/argon2/argon2.c; sourceTree = "<group>"; };
 		126086E5D24BBD911EDFC2142B7B8D5D /* NABox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NABox.m; path = NAChloride/NABox.m; sourceTree = "<group>"; };
 		12BD4AB05DA34768D2E8B1714D1BF771 /* ZXEAN8Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN8Writer.h; path = ZXingObjC/oned/ZXEAN8Writer.h; sourceTree = "<group>"; };
 		13889F43E799E968643FE5FBE3114C06 /* ZXDataMatrixDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDetector.h; path = ZXingObjC/datamatrix/detector/ZXDataMatrixDetector.h; sourceTree = "<group>"; };
@@ -1020,7 +1021,7 @@
 		13E093B59237E04F1AD57B2BDFE40246 /* ZXProductResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXProductResultParser.h; path = ZXingObjC/client/result/ZXProductResultParser.h; sourceTree = "<group>"; };
 		141B89B1852CAEB8F73A64C02C424222 /* ZXDataMatrixDecodedBitStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDecodedBitStreamParser.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecodedBitStreamParser.h; sourceTree = "<group>"; };
 		1420150E38D0356A004B52FF898A124C /* ZXGeoParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGeoParsedResult.h; path = ZXingObjC/client/result/ZXGeoParsedResult.h; sourceTree = "<group>"; };
-		14489F31BB7D0DE8E2AC6A996BE0D323 /* box_curve25519xsalsa20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = box_curve25519xsalsa20poly1305.c; path = src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c; sourceTree = "<group>"; };
+		14489F31BB7D0DE8E2AC6A996BE0D323 /* box_curve25519xsalsa20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = box_curve25519xsalsa20poly1305.c; path = src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c; sourceTree = "<group>"; };
 		147401F24EEA928FDE29AABF9557B90F /* ZXUPCEWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEWriter.h; path = ZXingObjC/oned/ZXUPCEWriter.h; sourceTree = "<group>"; };
 		148E99D0EA4E225DF8ADB1172AC5F8C6 /* crypto_sign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_sign.h; path = src/libsodium/include/sodium/crypto_sign.h; sourceTree = "<group>"; };
 		150A9181B1C19E21F64DBE1915340632 /* ZXMaxiCodeDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMaxiCodeDecoder.h; path = ZXingObjC/maxicode/decoder/ZXMaxiCodeDecoder.h; sourceTree = "<group>"; };
@@ -1028,21 +1029,21 @@
 		1591B889438AF4238D3AD4ACF8F246B7 /* ZXAztecBinaryShiftToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecBinaryShiftToken.h; path = ZXingObjC/aztec/encoder/ZXAztecBinaryShiftToken.h; sourceTree = "<group>"; };
 		15CB2D04CBC65D0A65AA5621FB8861C4 /* ZXCode93Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode93Writer.m; path = ZXingObjC/oned/ZXCode93Writer.m; sourceTree = "<group>"; };
 		15D7C87A1EFED245EB3D4037075E79DA /* ZXDataMatrixErrorCorrection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixErrorCorrection.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixErrorCorrection.m; sourceTree = "<group>"; };
-		161704534530836393E69996F7CEDABB /* poly1305_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = poly1305_sse2.c; path = src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c; sourceTree = "<group>"; };
-		1621EE467FDF0FB1EF7979840FF6878F /* core_hsalsa20.c */ = {isa = PBXFileReference; includeInIndex = 1; name = core_hsalsa20.c; path = src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c; sourceTree = "<group>"; };
+		161704534530836393E69996F7CEDABB /* poly1305_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = poly1305_sse2.c; path = src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c; sourceTree = "<group>"; };
+		1621EE467FDF0FB1EF7979840FF6878F /* core_hsalsa20.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = core_hsalsa20.c; path = src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c; sourceTree = "<group>"; };
 		168391D4535BA4AB6F626B98A70000FF /* ZXRSSExpandedPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedPair.m; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedPair.m; sourceTree = "<group>"; };
 		169B58BF62681C968D2F4E213A36285D /* ZXAddressBookDoCoMoResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAddressBookDoCoMoResultParser.h; path = ZXingObjC/client/result/ZXAddressBookDoCoMoResultParser.h; sourceTree = "<group>"; };
 		16B2D8D04BD0D0AE8E61E43CB2B5BCD4 /* chacha20_dolbeau-avx2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "chacha20_dolbeau-avx2.h"; path = "src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.h"; sourceTree = "<group>"; };
 		16BE4B5F624DF2504C6C559ECC2ABA0B /* BTCCurrencyConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCCurrencyConverter.h; path = CoreBitcoin/BTCCurrencyConverter.h; sourceTree = "<group>"; };
 		16C970834A1335113FC870EF410C5313 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = "include-ios/openssl/dsa.h"; sourceTree = "<group>"; };
-		16CF8B334B43E8BF54BC7C50EB396C3E /* aead_aes256gcm_aesni.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aead_aes256gcm_aesni.c; path = src/libsodium/crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c; sourceTree = "<group>"; };
+		16CF8B334B43E8BF54BC7C50EB396C3E /* aead_aes256gcm_aesni.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aead_aes256gcm_aesni.c; path = src/libsodium/crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c; sourceTree = "<group>"; };
 		16D0D41046554C235054B2674EECBE1B /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = "include-ios/openssl/cmac.h"; sourceTree = "<group>"; };
 		16F938B15B49A596E1D04032117CBA11 /* BTCHashID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCHashID.m; path = CoreBitcoin/BTCHashID.m; sourceTree = "<group>"; };
 		1751F0B767D7DB5D3AE259B8AFD7C2AB /* ZXDecodeHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDecodeHints.h; path = ZXingObjC/core/ZXDecodeHints.h; sourceTree = "<group>"; };
 		18821A9C59275E4D4F5ADAFF1ED71C26 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = "include-ios/openssl/bn.h"; sourceTree = "<group>"; };
 		1884F6D8F723A2CEDF4CA9FEC5881C07 /* ZXMathUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMathUtils.h; path = ZXingObjC/common/detector/ZXMathUtils.h; sourceTree = "<group>"; };
 		18E2CDA92BFD565826620CC85E4CE844 /* BTCAssetID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCAssetID.h; path = CoreBitcoin/BTCAssetID.h; sourceTree = "<group>"; };
-		18FDA66F96BDDAF61E21D9BDB3650E20 /* stream_salsa2012_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_salsa2012_ref.c; path = src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c; sourceTree = "<group>"; };
+		18FDA66F96BDDAF61E21D9BDB3650E20 /* stream_salsa2012_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_salsa2012_ref.c; path = src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c; sourceTree = "<group>"; };
 		1932C45A7B786C64FAC8E1140D5CE02D /* BTCKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCKey.m; path = CoreBitcoin/BTCKey.m; sourceTree = "<group>"; };
 		195AD876B9185463C2A31F72879B9973 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = "include-ios/openssl/md4.h"; sourceTree = "<group>"; };
 		1972CA4132AAB2AF18CCA7D1CB705230 /* ZXBitArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBitArray.h; path = ZXingObjC/common/ZXBitArray.h; sourceTree = "<group>"; };
@@ -1053,9 +1054,9 @@
 		1B3DD1F8520F4C2488EC9C0F36719541 /* BTCPaymentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPaymentRequest.h; path = CoreBitcoin/BTCPaymentRequest.h; sourceTree = "<group>"; };
 		1BA4EA1F8AB33453E57458D973B48C6B /* ZXDataMatrixErrorCorrection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixErrorCorrection.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixErrorCorrection.h; sourceTree = "<group>"; };
 		1BC5A1FEC6B89E1253386AC9ADF799B6 /* BTCBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCBlock.m; path = CoreBitcoin/BTCBlock.m; sourceTree = "<group>"; };
-		1C5ABDF03CBA5390E7F38D1F8F2A1489 /* kdf_blake2b.c */ = {isa = PBXFileReference; includeInIndex = 1; name = kdf_blake2b.c; path = src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c; sourceTree = "<group>"; };
+		1C5ABDF03CBA5390E7F38D1F8F2A1489 /* kdf_blake2b.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = kdf_blake2b.c; path = src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c; sourceTree = "<group>"; };
 		1C8C1A9369208FAB9D2DFFCBF20C2DE9 /* ZXCode39Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode39Writer.m; path = ZXingObjC/oned/ZXCode39Writer.m; sourceTree = "<group>"; };
-		1C8EBEA734E89DA66EABFB02FE1BFB2D /* generichash_blake2b.c */ = {isa = PBXFileReference; includeInIndex = 1; name = generichash_blake2b.c; path = src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c; sourceTree = "<group>"; };
+		1C8EBEA734E89DA66EABFB02FE1BFB2D /* generichash_blake2b.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = generichash_blake2b.c; path = src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c; sourceTree = "<group>"; };
 		1CCF53427C07D77655332A8A2EB34256 /* ZXQRCodeMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeMode.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeMode.h; sourceTree = "<group>"; };
 		1CF009BD7124A9B6BABA22701209F0F4 /* ZXCode128Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode128Reader.h; path = ZXingObjC/oned/ZXCode128Reader.h; sourceTree = "<group>"; };
 		1D3D586A640A2B3B8052BE784EA95904 /* ZXDataMatrixDataBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDataBlock.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDataBlock.h; sourceTree = "<group>"; };
@@ -1067,13 +1068,13 @@
 		1E006C0C98DCF34C38B63D14F9A263E7 /* ZXPerspectiveTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPerspectiveTransform.h; path = ZXingObjC/common/ZXPerspectiveTransform.h; sourceTree = "<group>"; };
 		1E1E8D00AA0ED24E48200F581914B3EB /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "include-ios/openssl/ripemd.h"; sourceTree = "<group>"; };
 		1E58EF708B5FDA5E5FD9C073FFC565F5 /* ZXQRCodeMultiReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeMultiReader.m; path = ZXingObjC/qrcode/multi/ZXQRCodeMultiReader.m; sourceTree = "<group>"; };
-		1E65C53FE98080433A8088951CB57785 /* crypto_kdf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_kdf.c; path = src/libsodium/crypto_kdf/crypto_kdf.c; sourceTree = "<group>"; };
+		1E65C53FE98080433A8088951CB57785 /* crypto_kdf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_kdf.c; path = src/libsodium/crypto_kdf/crypto_kdf.c; sourceTree = "<group>"; };
 		1E7C2F089262911064E0491CC77D59BE /* CoreBitcoin+Categories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoreBitcoin+Categories.h"; path = "CoreBitcoin/CoreBitcoin+Categories.h"; sourceTree = "<group>"; };
 		1E9F2C7D05E7BB042706C8434DEB16D7 /* ZXBitArrayBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBitArrayBuilder.h; path = ZXingObjC/oned/rss/expanded/ZXBitArrayBuilder.h; sourceTree = "<group>"; };
 		1EC3C137D01B72D8AC6B16E1F8E7E8FF /* ZXCode93Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode93Reader.m; path = ZXingObjC/oned/ZXCode93Reader.m; sourceTree = "<group>"; };
 		1EC7CA0D64670B0CE7DA4A997C6FD1CD /* ZXAztecState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecState.h; path = ZXingObjC/aztec/encoder/ZXAztecState.h; sourceTree = "<group>"; };
 		1EEED6D9E7C79F36A6255E3947622D80 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "include-ios/openssl/rc4.h"; sourceTree = "<group>"; };
-		1F122D128E274A79EDCB4BE589F769BF /* verify.c */ = {isa = PBXFileReference; includeInIndex = 1; name = verify.c; path = src/libsodium/crypto_verify/sodium/verify.c; sourceTree = "<group>"; };
+		1F122D128E274A79EDCB4BE589F769BF /* verify.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = verify.c; path = src/libsodium/crypto_verify/sodium/verify.c; sourceTree = "<group>"; };
 		1FADA65F63D1429164606D2296F5DD53 /* ZXQRCodeFinderPatternInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFinderPatternInfo.h; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternInfo.h; sourceTree = "<group>"; };
 		1FBCD9465B48A0DC06ACB214C430D0BC /* ZXCaptureDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCaptureDelegate.h; path = ZXingObjC/client/ZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1FD61CBCA87BF32F115F5DAC3323C574 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = "include-ios/openssl/safestack.h"; sourceTree = "<group>"; };
@@ -1090,19 +1091,19 @@
 		23FAB69B7BB4E79D4EA23286DA2A6B8D /* ZXPDF417DecodedBitStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417DecodedBitStreamParser.m; path = ZXingObjC/pdf417/decoder/ZXPDF417DecodedBitStreamParser.m; sourceTree = "<group>"; };
 		2478A0F1E9D25B85C47010558A4F43FC /* crypto_core_hchacha20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_hchacha20.h; path = src/libsodium/include/sodium/crypto_core_hchacha20.h; sourceTree = "<group>"; };
 		247E7E6E23D20A1C34990F847C922CF6 /* BTCTransactionInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCTransactionInput.m; path = CoreBitcoin/BTCTransactionInput.m; sourceTree = "<group>"; };
-		24B77AD35C02715A3540DEA0C3428139 /* consts_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = consts_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/consts_aes128ctr.c; sourceTree = "<group>"; };
+		24B77AD35C02715A3540DEA0C3428139 /* consts_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = consts_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/consts_aes128ctr.c; sourceTree = "<group>"; };
 		24C01CB921D573515EE4B4B6E4324E36 /* ZXDataMatrixVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixVersion.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixVersion.h; sourceTree = "<group>"; };
 		24F7F7FDC3C9DBEF5C3C1F75A81ACC8A /* ZXRSSExpandedRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedRow.m; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedRow.m; sourceTree = "<group>"; };
-		2553A333006141CC3D49F74B30798396 /* box_curve25519xchacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = box_curve25519xchacha20poly1305.c; path = src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c; sourceTree = "<group>"; };
+		2553A333006141CC3D49F74B30798396 /* box_curve25519xchacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = box_curve25519xchacha20poly1305.c; path = src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c; sourceTree = "<group>"; };
 		255FB156E057AA4854A78D11ABEFAB13 /* BTCPaymentMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCPaymentMethod.m; path = CoreBitcoin/BTCPaymentMethod.m; sourceTree = "<group>"; };
 		2565CA1D01A417A1BEAEB2E7F14153E1 /* ZXInvertedLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXInvertedLuminanceSource.h; path = ZXingObjC/core/ZXInvertedLuminanceSource.h; sourceTree = "<group>"; };
 		25CE0BD9445DAD1F8D9ECC74BF4EE031 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = "include-ios/openssl/cast.h"; sourceTree = "<group>"; };
 		2622CC9F41C229D864BD9DFB19796DB2 /* ZXVCardResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVCardResultParser.m; path = ZXingObjC/client/result/ZXVCardResultParser.m; sourceTree = "<group>"; };
-		26668F40C0AC9CA4CE819BED75B28F55 /* secretbox_xsalsa20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secretbox_xsalsa20poly1305.c; path = src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c; sourceTree = "<group>"; };
+		26668F40C0AC9CA4CE819BED75B28F55 /* secretbox_xsalsa20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = secretbox_xsalsa20poly1305.c; path = src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c; sourceTree = "<group>"; };
 		267956EDE8B7D60235789E3DAFEA7A09 /* sodium.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sodium.h; path = src/libsodium/include/sodium.h; sourceTree = "<group>"; };
 		26CB4385CA1D1472E56A58E4AEA81980 /* BTCKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCKeychain.m; path = CoreBitcoin/BTCKeychain.m; sourceTree = "<group>"; };
 		26D3D190AFCE167430542BCD27294FD9 /* ZXingObjCMaxiCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCMaxiCode.h; path = ZXingObjC/maxicode/ZXingObjCMaxiCode.h; sourceTree = "<group>"; };
-		272AB9BAA77A0732B4A0EDF1D3A048D0 /* stream_salsa2012.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_salsa2012.c; path = src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c; sourceTree = "<group>"; };
+		272AB9BAA77A0732B4A0EDF1D3A048D0 /* stream_salsa2012.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_salsa2012.c; path = src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c; sourceTree = "<group>"; };
 		276295FBA8FC54110953FDBD91BF8AA3 /* ZXSMSMMSResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXSMSMMSResultParser.m; path = ZXingObjC/client/result/ZXSMSMMSResultParser.m; sourceTree = "<group>"; };
 		27D2BDAF3DF02F5481E8AA46B19B2A19 /* blake2b-compress-ssse3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "blake2b-compress-ssse3.h"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.h"; sourceTree = "<group>"; };
 		28091676E41266709B8B4F474AAC0282 /* ZXPDF417BarcodeMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeMetadata.h; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeMetadata.h; sourceTree = "<group>"; };
@@ -1111,7 +1112,7 @@
 		28A9010F0FB8A5BC478DCB34B14FA817 /* ZXResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXResultParser.m; path = ZXingObjC/client/result/ZXResultParser.m; sourceTree = "<group>"; };
 		28C633B25E4738342C04525B3EEFFBE5 /* ZXParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXParsedResult.m; path = ZXingObjC/client/result/ZXParsedResult.m; sourceTree = "<group>"; };
 		28D14704DDFC5701F55BF9818599F35B /* blake2b-compress-avx2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "blake2b-compress-avx2.h"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.h"; sourceTree = "<group>"; };
-		290CAB56EA8F03558D61159800F1CF14 /* auth_hmacsha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = auth_hmacsha256.c; path = src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c; sourceTree = "<group>"; };
+		290CAB56EA8F03558D61159800F1CF14 /* auth_hmacsha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = auth_hmacsha256.c; path = src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c; sourceTree = "<group>"; };
 		29334ED1048A8AB2D88797642FD3B2F0 /* ZXDataMatrixDefaultPlacement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDefaultPlacement.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixDefaultPlacement.m; sourceTree = "<group>"; };
 		29A7522328DD5C1A8D3B5F15CB7A6136 /* BTCPaymentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPaymentProtocol.h; path = CoreBitcoin/BTCPaymentProtocol.h; sourceTree = "<group>"; };
 		29BF81EF18793A1456F5417E4C21DD08 /* randombytes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes.h; path = src/libsodium/include/sodium/randombytes.h; sourceTree = "<group>"; };
@@ -1125,7 +1126,7 @@
 		2AFE85E7680BB9C2B6E86EBA451728ED /* ZXResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXResultParser.h; path = ZXingObjC/client/result/ZXResultParser.h; sourceTree = "<group>"; };
 		2B230F7734EF21B16E9D09DC4A2B43F6 /* ZXQRCodeDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDecoder.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecoder.h; sourceTree = "<group>"; };
 		2B2C3284FDDCB9BAA803B4C5B838F1CD /* ZXEAN13Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEAN13Writer.m; path = ZXingObjC/oned/ZXEAN13Writer.m; sourceTree = "<group>"; };
-		2B3ED7F3B19349311945DF8FBBAE7F79 /* argon2-fill-block-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "argon2-fill-block-ref.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c"; sourceTree = "<group>"; };
+		2B3ED7F3B19349311945DF8FBBAE7F79 /* argon2-fill-block-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "argon2-fill-block-ref.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c"; sourceTree = "<group>"; };
 		2B79348C4D4B5622121D98C4A0CAB748 /* ZXRSSExpandedDecodedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedDecodedObject.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedObject.h; sourceTree = "<group>"; };
 		2BA8074CC4544685A31A641ABB2BD288 /* BTCTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCTransaction.h; path = CoreBitcoin/BTCTransaction.h; sourceTree = "<group>"; };
 		2BDFC076A5ED77C93B9CD066A655007B /* ZXingObjCPDF417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCPDF417.h; path = ZXingObjC/pdf417/ZXingObjCPDF417.h; sourceTree = "<group>"; };
@@ -1135,20 +1136,20 @@
 		2D1DFB06E62DD77A3DF8E7E61CE29D66 /* ZXRSSExpandedDecodedInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedDecodedInformation.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedInformation.m; sourceTree = "<group>"; };
 		2D46F1996F285BB3347B89658F6F2A32 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = "include-ios/openssl/rc2.h"; sourceTree = "<group>"; };
 		2D5A3EC58D523C96545A618FC83F824C /* BTCMnemonic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCMnemonic.h; path = CoreBitcoin/BTCMnemonic.h; sourceTree = "<group>"; };
-		2D7A5B978593552451D013EBA077057B /* crypto_box_seal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_box_seal.c; path = src/libsodium/crypto_box/crypto_box_seal.c; sourceTree = "<group>"; };
+		2D7A5B978593552451D013EBA077057B /* crypto_box_seal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_box_seal.c; path = src/libsodium/crypto_box/crypto_box_seal.c; sourceTree = "<group>"; };
 		2D9D92FB734E132729C69646A7EAB2B0 /* crypto_hash_sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_hash_sha512.h; path = src/libsodium/include/sodium/crypto_hash_sha512.h; sourceTree = "<group>"; };
 		2DB1340F749E79F4345F2A74C55BC40E /* NAStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAStream.h; path = NAChloride/NAStream.h; sourceTree = "<group>"; };
 		2E197997698D0DEFDEBDDF1B5B5076FE /* curve25519_ref10.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curve25519_ref10.h; path = src/libsodium/include/sodium/private/curve25519_ref10.h; sourceTree = "<group>"; };
 		2E3F6C917F63D2A733C9B6AC612DC20F /* NAAEAD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAAEAD.h; path = NAChloride/NAAEAD.h; sourceTree = "<group>"; };
-		2E65681D606800C476701F66E6993AB4 /* beforenm_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = beforenm_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/beforenm_aes128ctr.c; sourceTree = "<group>"; };
+		2E65681D606800C476701F66E6993AB4 /* beforenm_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = beforenm_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/beforenm_aes128ctr.c; sourceTree = "<group>"; };
 		2EC5ACC9E03B571129B0BD75B0CFC17F /* poly1305_donna64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = poly1305_donna64.h; path = src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna64.h; sourceTree = "<group>"; };
 		2ED0D1B754D56D5141593C42F4EC1BC2 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
 		2F2BC7897EF0E84927F439FDB2B2BF4D /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = "include-ios/openssl/ts.h"; sourceTree = "<group>"; };
 		2F2EED47F9F4E8C619B2897A51D851C2 /* ZXPDF417Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Reader.m; path = ZXingObjC/pdf417/ZXPDF417Reader.m; sourceTree = "<group>"; };
 		2F49509ED1693A8D50C8284B26884DB6 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "lib-ios/libcrypto.a"; sourceTree = "<group>"; };
-		2F8AD5C9189AE02AC160E95344EF5FA7 /* blake2b-long.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-long.c"; path = "src/libsodium/crypto_pwhash/argon2/blake2b-long.c"; sourceTree = "<group>"; };
+		2F8AD5C9189AE02AC160E95344EF5FA7 /* blake2b-long.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "blake2b-long.c"; path = "src/libsodium/crypto_pwhash/argon2/blake2b-long.c"; sourceTree = "<group>"; };
 		2FA70F6A8B5FC9CA0F07B4EEE40D1194 /* ZXPDF417ScanningDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417ScanningDecoder.m; path = ZXingObjC/pdf417/decoder/ZXPDF417ScanningDecoder.m; sourceTree = "<group>"; };
-		2FB072323BA8CFABE0DFE9C65275025B /* runtime.c */ = {isa = PBXFileReference; includeInIndex = 1; name = runtime.c; path = src/libsodium/sodium/runtime.c; sourceTree = "<group>"; };
+		2FB072323BA8CFABE0DFE9C65275025B /* runtime.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = runtime.c; path = src/libsodium/sodium/runtime.c; sourceTree = "<group>"; };
 		2FC241943205DAA8E13CE79556B03A00 /* ZXEAN13Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEAN13Reader.m; path = ZXingObjC/oned/ZXEAN13Reader.m; sourceTree = "<group>"; };
 		2FC8DBAF78243DF1537F2B7406B6F20B /* BTCCurvePoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCCurvePoint.m; path = CoreBitcoin/BTCCurvePoint.m; sourceTree = "<group>"; };
 		300531B96127E4FA534E52A0CDAF4246 /* BTCMerkleTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCMerkleTree.h; path = CoreBitcoin/BTCMerkleTree.h; sourceTree = "<group>"; };
@@ -1161,7 +1162,7 @@
 		3250D34F9879000F7EC5B712DDBECA00 /* ZXPDF417BarcodeRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeRow.h; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.h; sourceTree = "<group>"; };
 		32525C802F83A38F0DB45167A7B3F764 /* ZXPDF417BarcodeMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BarcodeMetadata.m; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeMetadata.m; sourceTree = "<group>"; };
 		326629EDFDBFB1F413D29CF9C9A2513D /* ZXReedSolomonEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXReedSolomonEncoder.m; path = ZXingObjC/common/reedsolomon/ZXReedSolomonEncoder.m; sourceTree = "<group>"; };
-		3295BB2F5464E6BE23979F6BF53634A4 /* salsa20_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = salsa20_ref.c; path = src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c; sourceTree = "<group>"; };
+		3295BB2F5464E6BE23979F6BF53634A4 /* salsa20_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = salsa20_ref.c; path = src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c; sourceTree = "<group>"; };
 		32F84DBEEE46ACB853272935F9CD38A8 /* Pods-WebSocketClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebSocketClient-acknowledgements.markdown"; sourceTree = "<group>"; };
 		333AB2A3E231E98E836AD948CA8664D7 /* ZXDataMatrixVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixVersion.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixVersion.m; sourceTree = "<group>"; };
 		33BA06D611DC8EAAAD679FB86231E3CA /* ZXQRCodeFinderPatternFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFinderPatternFinder.h; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternFinder.h; sourceTree = "<group>"; };
@@ -1171,8 +1172,8 @@
 		3439825D76580B0FA9CF7A1432FB640C /* ZXUPCEANExtension5Support.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEANExtension5Support.m; path = ZXingObjC/oned/ZXUPCEANExtension5Support.m; sourceTree = "<group>"; };
 		343FC3A22FC781E114C3CC42C742A9E0 /* NAAEAD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAAEAD.m; path = NAChloride/NAAEAD.m; sourceTree = "<group>"; };
 		346FD5D9FC46D71E089360F105BF1F54 /* ZXQRCodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeReader.h; path = ZXingObjC/qrcode/ZXQRCodeReader.h; sourceTree = "<group>"; };
-		352371F8FE14E2AD3586F4AAE8605C94 /* stream_salsa20.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_salsa20.c; path = src/libsodium/crypto_stream/salsa20/stream_salsa20.c; sourceTree = "<group>"; };
-		352FDF830BE124465B93A17CE12C06A6 /* scrypt_platform.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scrypt_platform.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c; sourceTree = "<group>"; };
+		352371F8FE14E2AD3586F4AAE8605C94 /* stream_salsa20.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_salsa20.c; path = src/libsodium/crypto_stream/salsa20/stream_salsa20.c; sourceTree = "<group>"; };
+		352FDF830BE124465B93A17CE12C06A6 /* scrypt_platform.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scrypt_platform.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c; sourceTree = "<group>"; };
 		3547EEC1887F6562C51ED605BDF6B1D6 /* BTCPaymentMethodDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPaymentMethodDetails.h; path = CoreBitcoin/BTCPaymentMethodDetails.h; sourceTree = "<group>"; };
 		3642A62BE47CBCADCBE5B62D6E60022A /* ZXQRCodeMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeMode.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeMode.m; sourceTree = "<group>"; };
 		3643930057DB8A547BB9AB2BCE2510CF /* ZXIntArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXIntArray.h; path = ZXingObjC/common/ZXIntArray.h; sourceTree = "<group>"; };
@@ -1191,10 +1192,10 @@
 		3A1A25D5C0CBC33A9E070B23D7B07279 /* BTCProtocolSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCProtocolSerialization.m; path = CoreBitcoin/BTCProtocolSerialization.m; sourceTree = "<group>"; };
 		3A90E706E7B13F8FFE4B04B07DA973BA /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = src/libsodium/include/sodium/private/mutex.h; sourceTree = "<group>"; };
 		3B1D6D15C75838FCF5CA523ECED30135 /* ZXQRCodeWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeWriter.m; path = ZXingObjC/qrcode/ZXQRCodeWriter.m; sourceTree = "<group>"; };
-		3B8ECB296384FB298A7298DA5476D1FA /* stream_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/stream_aes128ctr.c; sourceTree = "<group>"; };
+		3B8ECB296384FB298A7298DA5476D1FA /* stream_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/stream_aes128ctr.c; sourceTree = "<group>"; };
 		3BAF14531A21700BAD71C186F550BE10 /* crypto_aead_chacha20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_chacha20poly1305.h; path = src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h; sourceTree = "<group>"; };
 		3C60B7FFB1475B25E66B687FCC8AF8F9 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = "include-ios/openssl/ui_compat.h"; sourceTree = "<group>"; };
-		3C8C79CD442360EEB4AE5BA37D4B0595 /* chacha20_dolbeau-ssse3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "chacha20_dolbeau-ssse3.c"; path = "src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c"; sourceTree = "<group>"; };
+		3C8C79CD442360EEB4AE5BA37D4B0595 /* chacha20_dolbeau-ssse3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "chacha20_dolbeau-ssse3.c"; path = "src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c"; sourceTree = "<group>"; };
 		3CA12E62001783F2792C73F71B14852C /* ZXOneDReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXOneDReader.m; path = ZXingObjC/oned/ZXOneDReader.m; sourceTree = "<group>"; };
 		3CAF63CA7B3F3AEC5E4756B966819474 /* ZXModulusPoly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXModulusPoly.m; path = ZXingObjC/pdf417/decoder/ec/ZXModulusPoly.m; sourceTree = "<group>"; };
 		3E12004FFC6A4A304C08AF1AEF0B63B0 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "include-ios/openssl/sha.h"; sourceTree = "<group>"; };
@@ -1204,14 +1205,14 @@
 		3FB58CD21560D9E00C0B61906E6E9FD5 /* libsodium.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libsodium.xcconfig; sourceTree = "<group>"; };
 		3FDE68D6EC5BBBFEAB944B941C648CEA /* ZXQRCodeReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeReader.m; path = ZXingObjC/qrcode/ZXQRCodeReader.m; sourceTree = "<group>"; };
 		3FDF86FFC18A9DCE2EBC8E02E23F9AC1 /* fe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe.h; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe.h; sourceTree = "<group>"; };
-		40C5FF01988412344F4E6C9A8E00BF46 /* stream_xchacha20.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_xchacha20.c; path = src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c; sourceTree = "<group>"; };
+		40C5FF01988412344F4E6C9A8E00BF46 /* stream_xchacha20.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_xchacha20.c; path = src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c; sourceTree = "<group>"; };
 		4124E99F8C3600037A875B1902CD79CF /* ZXDataMatrixHighLevelEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixHighLevelEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixHighLevelEncoder.h; sourceTree = "<group>"; };
 		419E0E283ABF8222A46DF45F38F07BC0 /* crypto_box.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_box.h; path = src/libsodium/include/sodium/crypto_box.h; sourceTree = "<group>"; };
 		41CC30CA1BC24E2BBEF970D7B4328B9A /* NS+BTCBase58.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NS+BTCBase58.h"; path = "CoreBitcoin/NS+BTCBase58.h"; sourceTree = "<group>"; };
 		41D3AF776100407DE566BFDB66B58306 /* NAOneTimeAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAOneTimeAuth.h; path = NAChloride/NAOneTimeAuth.h; sourceTree = "<group>"; };
 		42056AD8C44D337B52BC4DE3A5D99065 /* ZXMultiFormatReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMultiFormatReader.m; path = ZXingObjC/ZXMultiFormatReader.m; sourceTree = "<group>"; };
 		426027D54408C653E4A5CC6E6B465C3D /* ZXQRCodeDecoderMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDecoderMetaData.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecoderMetaData.h; sourceTree = "<group>"; };
-		429B4DF2A2319B480F1A7252199B9A9E /* hash_sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hash_sha256.c; path = src/libsodium/crypto_hash/sha256/hash_sha256.c; sourceTree = "<group>"; };
+		429B4DF2A2319B480F1A7252199B9A9E /* hash_sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash_sha256.c; path = src/libsodium/crypto_hash/sha256/hash_sha256.c; sourceTree = "<group>"; };
 		42DEF3A67C6F9B5A1A31D19FCD9AC3CB /* ZXPDF417ECErrorCorrection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417ECErrorCorrection.h; path = ZXingObjC/pdf417/decoder/ec/ZXPDF417ECErrorCorrection.h; sourceTree = "<group>"; };
 		43094F1B2F5F9343B2569729546E8825 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = "include-ios/openssl/whrlpool.h"; sourceTree = "<group>"; };
 		43F9D126601192689E734CC60F568B5F /* ZXAddressBookAUResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAddressBookAUResultParser.h; path = ZXingObjC/client/result/ZXAddressBookAUResultParser.h; sourceTree = "<group>"; };
@@ -1224,7 +1225,7 @@
 		4610479EB1664887FAB3E696536B7F77 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = "include-ios/openssl/ssl23.h"; sourceTree = "<group>"; };
 		462C9CE6FD09C618E97E56598CB17375 /* ZXQRCodeAlignmentPatternFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeAlignmentPatternFinder.h; path = ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPatternFinder.h; sourceTree = "<group>"; };
 		46401ACBDB643AF8207CC9E174404112 /* BTCBlockHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCBlockHeader.m; path = CoreBitcoin/BTCBlockHeader.m; sourceTree = "<group>"; };
-		46737D5FA453DF38B5F99631711A60B2 /* crypto_shorthash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_shorthash.c; path = src/libsodium/crypto_shorthash/crypto_shorthash.c; sourceTree = "<group>"; };
+		46737D5FA453DF38B5F99631711A60B2 /* crypto_shorthash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_shorthash.c; path = src/libsodium/crypto_shorthash/crypto_shorthash.c; sourceTree = "<group>"; };
 		46C8F33B25AA547349E65A05D55FEC06 /* BTCAssetType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCAssetType.h; path = CoreBitcoin/BTCAssetType.h; sourceTree = "<group>"; };
 		46FAA64942CC7FEB77A61F7EAFCD9DB3 /* crypto_pwhash_scryptsalsa208sha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_pwhash_scryptsalsa208sha256.h; path = src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h; sourceTree = "<group>"; };
 		4721E81D6CEB5C6C5FC5E33784EE5B7D /* ZXGenericGF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGenericGF.m; path = ZXingObjC/common/reedsolomon/ZXGenericGF.m; sourceTree = "<group>"; };
@@ -1248,7 +1249,7 @@
 		4CE26E8E2F18CD51A231A83753E2618C /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = "include-ios/openssl/pem2.h"; sourceTree = "<group>"; };
 		4D3F9A98B789127246A8553D5888C6E2 /* ZXCGImageLuminanceSourceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCGImageLuminanceSourceInfo.m; path = ZXingObjC/client/ZXCGImageLuminanceSourceInfo.m; sourceTree = "<group>"; };
 		4D92F52DC2640A959A326DE0634A74F6 /* ZXAztecHighLevelEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecHighLevelEncoder.h; path = ZXingObjC/aztec/encoder/ZXAztecHighLevelEncoder.h; sourceTree = "<group>"; };
-		4DA602C9A8835B7F2C343152B65EA2C1 /* sign.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sign.c; path = src/libsodium/crypto_sign/ed25519/ref10/sign.c; sourceTree = "<group>"; };
+		4DA602C9A8835B7F2C343152B65EA2C1 /* sign.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sign.c; path = src/libsodium/crypto_sign/ed25519/ref10/sign.c; sourceTree = "<group>"; };
 		4DD12E798A10F6DAA387C78C890E4C78 /* ZXExpandedProductParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXExpandedProductParsedResult.h; path = ZXingObjC/client/result/ZXExpandedProductParsedResult.h; sourceTree = "<group>"; };
 		4E05BAAD8BE9F2E38CCAA428B6EC9289 /* ZXMultiFinderPatternFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMultiFinderPatternFinder.m; path = ZXingObjC/qrcode/multi/detector/ZXMultiFinderPatternFinder.m; sourceTree = "<group>"; };
 		4E85FB5563690576F337E2C605DF9D91 /* CoreBitcoin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreBitcoin.xcconfig; sourceTree = "<group>"; };
@@ -1256,18 +1257,18 @@
 		4EFA65B0D7F2EA631916537FBEC0F9AB /* ZXGenericGF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGenericGF.h; path = ZXingObjC/common/reedsolomon/ZXGenericGF.h; sourceTree = "<group>"; };
 		4F090659F616FAE9AAC0B15168432783 /* ZXQRCodeMaskUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeMaskUtil.h; path = ZXingObjC/qrcode/encoder/ZXQRCodeMaskUtil.h; sourceTree = "<group>"; };
 		4F2FB64A8D1E9CD609B76FD22B3AD902 /* BTCProtocolSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCProtocolSerialization.h; path = CoreBitcoin/BTCProtocolSerialization.h; sourceTree = "<group>"; };
-		4F3E61D9343DB12A375819626862D9B2 /* fe51_invert.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fe51_invert.c; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c; sourceTree = "<group>"; };
+		4F3E61D9343DB12A375819626862D9B2 /* fe51_invert.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fe51_invert.c; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c; sourceTree = "<group>"; };
 		4F8AF8EA5945926B2173B194EBD906C4 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = "include-ios/openssl/e_os2.h"; sourceTree = "<group>"; };
 		4FEC2AED8DE1CD219EAC817E74334632 /* ZXDataMatrixBase256Encoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixBase256Encoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixBase256Encoder.m; sourceTree = "<group>"; };
 		509471C01B645B587A019C3E63EF4DEF /* ZXingObjCAztec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCAztec.h; path = ZXingObjC/aztec/ZXingObjCAztec.h; sourceTree = "<group>"; };
 		50D6F2FC04AA622A28AD96350B6D2A38 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
 		5138723681CCD26B8B30BEE78021A22F /* BTCBigNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCBigNumber.h; path = CoreBitcoin/BTCBigNumber.h; sourceTree = "<group>"; };
 		51D667BAEB859588924A3FF974817680 /* crypto_stream_xsalsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_xsalsa20.h; path = src/libsodium/include/sodium/crypto_stream_xsalsa20.h; sourceTree = "<group>"; };
-		51F43E267E38DD3077D9C6E3066BB3BB /* stream_salsa208.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_salsa208.c; path = src/libsodium/crypto_stream/salsa208/stream_salsa208.c; sourceTree = "<group>"; };
+		51F43E267E38DD3077D9C6E3066BB3BB /* stream_salsa208.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_salsa208.c; path = src/libsodium/crypto_stream/salsa208/stream_salsa208.c; sourceTree = "<group>"; };
 		52025F10F0315099B188E08F36E2B642 /* NAChloride.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NAChloride.xcconfig; sourceTree = "<group>"; };
 		5214989AFB91F122DBE7152AAA1237FE /* ZXURIParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXURIParsedResult.m; path = ZXingObjC/client/result/ZXURIParsedResult.m; sourceTree = "<group>"; };
 		530B252601A774C3A6D2783787F0B6A4 /* crypto_generichash_blake2b.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_generichash_blake2b.h; path = src/libsodium/include/sodium/crypto_generichash_blake2b.h; sourceTree = "<group>"; };
-		53368B24836B37F44A0A2EB7CA21418F /* stream_salsa208_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_salsa208_ref.c; path = src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c; sourceTree = "<group>"; };
+		53368B24836B37F44A0A2EB7CA21418F /* stream_salsa208_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_salsa208_ref.c; path = src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c; sourceTree = "<group>"; };
 		5386DF2326B6458454AD23C4A813998E /* crypto_sign_ed25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_sign_ed25519.h; path = src/libsodium/include/sodium/crypto_sign_ed25519.h; sourceTree = "<group>"; };
 		548B6CF0A03DEE09453F914FEDF0471D /* NAOneTimeAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAOneTimeAuth.m; path = NAChloride/NAOneTimeAuth.m; sourceTree = "<group>"; };
 		551EA6DB2895253FB9BBDD901CADDBA6 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
@@ -1280,7 +1281,7 @@
 		57F04932B8C073364BA9073299EBDC6D /* u1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = u1.h; path = src/libsodium/crypto_stream/chacha20/dolbeau/u1.h; sourceTree = "<group>"; };
 		5800E0A5E6C64BECD8D424A5700D4EA8 /* ZXQRCodeFormatInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFormatInformation.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeFormatInformation.h; sourceTree = "<group>"; };
 		586DEE0CACBC8F74B3509CA7D4CB7B10 /* fe51_namespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe51_namespace.h; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_namespace.h; sourceTree = "<group>"; };
-		58A5E20235909A2181737A25C7C5DB14 /* secretbox_xchacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secretbox_xchacha20poly1305.c; path = src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c; sourceTree = "<group>"; };
+		58A5E20235909A2181737A25C7C5DB14 /* secretbox_xchacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = secretbox_xchacha20poly1305.c; path = src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c; sourceTree = "<group>"; };
 		595568CBC98BB59ABEC548AE3339DDAD /* ZXUPCEANReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEANReader.m; path = ZXingObjC/oned/ZXUPCEANReader.m; sourceTree = "<group>"; };
 		59575627F9F83803BACAA86FE84B0D1E /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		59D443F78CD7A8E9BDBAA0CEA22676CD /* BTCPriceSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCPriceSource.m; path = CoreBitcoin/BTCPriceSource.m; sourceTree = "<group>"; };
@@ -1290,7 +1291,7 @@
 		5B7F42E80FDF92BDA8257500CA4ABFCE /* ZXBitMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBitMatrix.h; path = ZXingObjC/common/ZXBitMatrix.h; sourceTree = "<group>"; };
 		5BAFDE90D75B30EB8413B62B322DD8D1 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = "include-ios/openssl/cms.h"; sourceTree = "<group>"; };
 		5BBC24A4E90460C8F3DC78E90EE2B6A8 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
-		5C062C18AFEA2C99EE8745B16CB120D1 /* xor_afternm_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xor_afternm_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/xor_afternm_aes128ctr.c; sourceTree = "<group>"; };
+		5C062C18AFEA2C99EE8745B16CB120D1 /* xor_afternm_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xor_afternm_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/xor_afternm_aes128ctr.c; sourceTree = "<group>"; };
 		5C083902572316DC568B887177C72111 /* randombytes_sysrandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes_sysrandom.h; path = src/libsodium/include/sodium/randombytes_sysrandom.h; sourceTree = "<group>"; };
 		5C6FF9CCB921585E18D30DCC4BC68EB6 /* ZXITFReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXITFReader.h; path = ZXingObjC/oned/ZXITFReader.h; sourceTree = "<group>"; };
 		5D0A2C9B53AEA822A5319182DA448799 /* ZXGlobalHistogramBinarizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGlobalHistogramBinarizer.m; path = ZXingObjC/common/ZXGlobalHistogramBinarizer.m; sourceTree = "<group>"; };
@@ -1323,7 +1324,7 @@
 		640E7753A5D63DFB14F0EB27A0839445 /* ZXQRCodeAlignmentPatternFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeAlignmentPatternFinder.m; path = ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPatternFinder.m; sourceTree = "<group>"; };
 		643A0A0540DF7AF7D6544918AA46B2A7 /* ZXAztecDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecDetector.h; path = ZXingObjC/aztec/detector/ZXAztecDetector.h; sourceTree = "<group>"; };
 		6456473C1864D160B819AEDAD8FEC01F /* ZXQRCodeErrorCorrectionLevel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeErrorCorrectionLevel.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeErrorCorrectionLevel.m; sourceTree = "<group>"; };
-		64D340F39FD2AFA7296641E4524DA43D /* libNAChloride.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNAChloride.a; path = libNAChloride.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D340F39FD2AFA7296641E4524DA43D /* libNAChloride.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNAChloride.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D411B14A81B5A0ED4F10F2E8C88494 /* ZXITFWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXITFWriter.m; path = ZXingObjC/oned/ZXITFWriter.m; sourceTree = "<group>"; };
 		64DA35D2AFE7ACB348B644108C105844 /* ZXDataMatrixSymbolInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixSymbolInfo.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo.h; sourceTree = "<group>"; };
 		64E0D549ABE50F0236EB646413F9C44B /* BTCFancyEncryptedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCFancyEncryptedMessage.h; path = CoreBitcoin/BTCFancyEncryptedMessage.h; sourceTree = "<group>"; };
@@ -1335,7 +1336,7 @@
 		66037802AE4CC677E4CD6FC85959CCDA /* crypto_shorthash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_shorthash.h; path = src/libsodium/include/sodium/crypto_shorthash.h; sourceTree = "<group>"; };
 		6625881BF7BFE4E2DC1EB2BD15ED8A1B /* BTCScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCScript.m; path = CoreBitcoin/BTCScript.m; sourceTree = "<group>"; };
 		6687420DFE0E798E6BEACAC846FA085A /* ZXPDF417BarcodeMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeMatrix.h; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeMatrix.h; sourceTree = "<group>"; };
-		66B2832FEF62FFDCB1F68AA3BB662675 /* chacha20_dolbeau-avx2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "chacha20_dolbeau-avx2.c"; path = "src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c"; sourceTree = "<group>"; };
+		66B2832FEF62FFDCB1F68AA3BB662675 /* chacha20_dolbeau-avx2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "chacha20_dolbeau-avx2.c"; path = "src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c"; sourceTree = "<group>"; };
 		66F87D669552062D14654129D9FCE6E7 /* BTCErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCErrors.h; path = CoreBitcoin/BTCErrors.h; sourceTree = "<group>"; };
 		66FCF88E24DD15569186EAF6637F8195 /* NAAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAAuth.m; path = NAChloride/NAAuth.m; sourceTree = "<group>"; };
 		6705F9D47E8BC220135D0DA929EFF0F8 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = "include-ios/openssl/pkcs7.h"; sourceTree = "<group>"; };
@@ -1348,7 +1349,7 @@
 		6773845208F3F59B977AFE0A58EB7AF8 /* ZXTelParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXTelParsedResult.m; path = ZXingObjC/client/result/ZXTelParsedResult.m; sourceTree = "<group>"; };
 		679C7F6A6E8F6D6B27AEABCE7D4CC0F0 /* BTCNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCNumberFormatter.h; path = CoreBitcoin/BTCNumberFormatter.h; sourceTree = "<group>"; };
 		67CF55DE4FDE78B79BC74704408C8DD7 /* NABoxKeypair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NABoxKeypair.h; path = NAChloride/NABoxKeypair.h; sourceTree = "<group>"; };
-		67FF3E56AF8371BFF66857B4E2C5C4A6 /* argon2-fill-block-ssse3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "argon2-fill-block-ssse3.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c"; sourceTree = "<group>"; };
+		67FF3E56AF8371BFF66857B4E2C5C4A6 /* argon2-fill-block-ssse3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "argon2-fill-block-ssse3.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c"; sourceTree = "<group>"; };
 		680ED8E35E6EB34686086DC8756C1238 /* ZXPDF417DetectionResultColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DetectionResultColumn.h; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultColumn.h; sourceTree = "<group>"; };
 		686B4A2DAD75FB33738152F8E9FE22BA /* BTCPaymentProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCPaymentProtocol.m; path = CoreBitcoin/BTCPaymentProtocol.m; sourceTree = "<group>"; };
 		68A8412D4F32B81BB090AE4BB59C2C22 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
@@ -1358,7 +1359,7 @@
 		69C861BB32B3B89FD12C9EF380EAC217 /* ZXCode39Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode39Writer.h; path = ZXingObjC/oned/ZXCode39Writer.h; sourceTree = "<group>"; };
 		69CB025C361DD11F079369249FB2762B /* ZXBookmarkDoCoMoResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBookmarkDoCoMoResultParser.m; path = ZXingObjC/client/result/ZXBookmarkDoCoMoResultParser.m; sourceTree = "<group>"; };
 		69E608645E81874881935715F7E64CC4 /* ZXVINParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVINParsedResult.m; path = ZXingObjC/client/result/ZXVINParsedResult.m; sourceTree = "<group>"; };
-		6A5CBE8AA7E65B5678258BF0FBAE7DE4 /* blake2b-compress-avx2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-compress-avx2.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c"; sourceTree = "<group>"; };
+		6A5CBE8AA7E65B5678258BF0FBAE7DE4 /* blake2b-compress-avx2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "blake2b-compress-avx2.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c"; sourceTree = "<group>"; };
 		6AC7862A553E49E77D1F1C52441509DD /* ZXCalendarParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCalendarParsedResult.m; path = ZXingObjC/client/result/ZXCalendarParsedResult.m; sourceTree = "<group>"; };
 		6AEC50A30B654BC7C43192BC9D0B67C7 /* x25519_ref10.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x25519_ref10.h; path = src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.h; sourceTree = "<group>"; };
 		6B1461D41097982B08D7E4D260EFDB70 /* shorthash_siphash_ref.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shorthash_siphash_ref.h; path = src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash_ref.h; sourceTree = "<group>"; };
@@ -1369,7 +1370,7 @@
 		6C28ECE69D469C9A04ED8DB2DA1A76FA /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = "include-ios/openssl/kssl.h"; sourceTree = "<group>"; };
 		6C33F6704E0B7439739333926DC9CAC0 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "include-ios/openssl/ui.h"; sourceTree = "<group>"; };
 		6C3F27AE6F7ECFA1AC4AA24EBE52CE18 /* ZXRSSFinderPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSFinderPattern.h; path = ZXingObjC/oned/rss/ZXRSSFinderPattern.h; sourceTree = "<group>"; };
-		6C5C38F9BAA2B5D4F895475F82F5B11A /* stream_chacha20.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_chacha20.c; path = src/libsodium/crypto_stream/chacha20/stream_chacha20.c; sourceTree = "<group>"; };
+		6C5C38F9BAA2B5D4F895475F82F5B11A /* stream_chacha20.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_chacha20.c; path = src/libsodium/crypto_stream/chacha20/stream_chacha20.c; sourceTree = "<group>"; };
 		6C9EE59292ABD7C64718E28C05854E7B /* ZXPDF417Dimensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Dimensions.h; path = ZXingObjC/pdf417/encoder/ZXPDF417Dimensions.h; sourceTree = "<group>"; };
 		6CA6FA9C91694D625B9DA0EE763ED32C /* ZXQRCodeDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDetector.h; path = ZXingObjC/qrcode/detector/ZXQRCodeDetector.h; sourceTree = "<group>"; };
 		6CB88D67188B1A031E470F85C5A7B729 /* ZXCGImageLuminanceSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCGImageLuminanceSource.m; path = ZXingObjC/client/ZXCGImageLuminanceSource.m; sourceTree = "<group>"; };
@@ -1380,10 +1381,10 @@
 		6F13D9B05DD6EEDE9730D099581001A1 /* ZXRGBLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRGBLuminanceSource.h; path = ZXingObjC/core/ZXRGBLuminanceSource.h; sourceTree = "<group>"; };
 		6F38831F9E23F35598253B3655E5C427 /* ZXDataMatrixHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixHighLevelEncoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixHighLevelEncoder.m; sourceTree = "<group>"; };
 		6F4FD031512A9958556A3EE7938AE533 /* ZXRSSExpandedDecodedChar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedDecodedChar.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedChar.h; sourceTree = "<group>"; };
-		6F73B6C7971A37DCD5170ED89E3DF741 /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZXingObjC.a; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F73B6C7971A37DCD5170ED89E3DF741 /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE03EFE0EBB70C103D85B3C26BF3AE3 /* BTCAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCAddress.m; path = CoreBitcoin/BTCAddress.m; sourceTree = "<group>"; };
 		7059934E8F1C6240B8A5B1A05163799C /* ZXMaxiCodeBitMatrixParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMaxiCodeBitMatrixParser.m; path = ZXingObjC/maxicode/decoder/ZXMaxiCodeBitMatrixParser.m; sourceTree = "<group>"; };
-		706EB63334028FA1A35562FBF7141F5D /* crypto_hash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_hash.c; path = src/libsodium/crypto_hash/crypto_hash.c; sourceTree = "<group>"; };
+		706EB63334028FA1A35562FBF7141F5D /* crypto_hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_hash.c; path = src/libsodium/crypto_hash/crypto_hash.c; sourceTree = "<group>"; };
 		709F2821E03B03839CA0542F268DD458 /* ZXPDF417Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Reader.h; path = ZXingObjC/pdf417/ZXPDF417Reader.h; sourceTree = "<group>"; };
 		70BAE272F216C35A648B1E448F5F39FD /* base2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base2.h; path = src/libsodium/crypto_core/curve25519/ref10/base2.h; sourceTree = "<group>"; };
 		70EB07C6B179F415B6AC65429D6AD7E3 /* ZXQRCodeFinderPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFinderPattern.h; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPattern.h; sourceTree = "<group>"; };
@@ -1405,17 +1406,17 @@
 		76298CDA8B0FE82EC6B584EF7FF54736 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "include-ios/openssl/blowfish.h"; sourceTree = "<group>"; };
 		766562EA88131E0522EB06D0E9D7762E /* ZXAI013x0x1xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI013x0x1xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013x0x1xDecoder.m; sourceTree = "<group>"; };
 		76C22712AAD953C5C1C8AAE624F50864 /* ZXURIParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXURIParsedResult.h; path = ZXingObjC/client/result/ZXURIParsedResult.h; sourceTree = "<group>"; };
-		7709AD3CC76626BA709964EC7CAE2F2C /* obsolete.c */ = {isa = PBXFileReference; includeInIndex = 1; name = obsolete.c; path = src/libsodium/crypto_sign/ed25519/ref10/obsolete.c; sourceTree = "<group>"; };
+		7709AD3CC76626BA709964EC7CAE2F2C /* obsolete.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = obsolete.c; path = src/libsodium/crypto_sign/ed25519/ref10/obsolete.c; sourceTree = "<group>"; };
 		7735E084EE828BD5CDA50A1CEF464F05 /* ZXVCardResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXVCardResultParser.h; path = ZXingObjC/client/result/ZXVCardResultParser.h; sourceTree = "<group>"; };
 		7789FBF9BCB6FCC97F1CA1DF2D6B8AC6 /* ZXSMSTOMMSTOResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXSMSTOMMSTOResultParser.m; path = ZXingObjC/client/result/ZXSMSTOMMSTOResultParser.m; sourceTree = "<group>"; };
-		778A779B5CF913A5347CC99C766806EB /* crypto_sign.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_sign.c; path = src/libsodium/crypto_sign/crypto_sign.c; sourceTree = "<group>"; };
+		778A779B5CF913A5347CC99C766806EB /* crypto_sign.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_sign.c; path = src/libsodium/crypto_sign/crypto_sign.c; sourceTree = "<group>"; };
 		77F557536A22C3081CCBF589C0DFAF28 /* ZXDecoderResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDecoderResult.m; path = ZXingObjC/common/ZXDecoderResult.m; sourceTree = "<group>"; };
 		7808B65491403D4CAF659C307F650EBD /* ZXQRCodeEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeEncoder.m; path = ZXingObjC/qrcode/encoder/ZXQRCodeEncoder.m; sourceTree = "<group>"; };
-		785A1C46DBF963E0253FA02B51804A6D /* crypto_stream.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_stream.c; path = src/libsodium/crypto_stream/crypto_stream.c; sourceTree = "<group>"; };
+		785A1C46DBF963E0253FA02B51804A6D /* crypto_stream.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_stream.c; path = src/libsodium/crypto_stream/crypto_stream.c; sourceTree = "<group>"; };
 		78864B98C9A2135FDB93B48EEE2C2504 /* ZXEmailDoCoMoResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEmailDoCoMoResultParser.h; path = ZXingObjC/client/result/ZXEmailDoCoMoResultParser.h; sourceTree = "<group>"; };
 		7898AC042B4B6C37D6558C7CDD5B23B5 /* BTCNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCNumberFormatter.m; path = CoreBitcoin/BTCNumberFormatter.m; sourceTree = "<group>"; };
 		78A19339BCEB93FC0B1D1FC9E21816C8 /* ZXTelResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXTelResultParser.h; path = ZXingObjC/client/result/ZXTelResultParser.h; sourceTree = "<group>"; };
-		78A7C23D76861B58523DC541AAD4F340 /* randombytes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = randombytes.c; path = src/libsodium/randombytes/randombytes.c; sourceTree = "<group>"; };
+		78A7C23D76861B58523DC541AAD4F340 /* randombytes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = randombytes.c; path = src/libsodium/randombytes/randombytes.c; sourceTree = "<group>"; };
 		795D2235FA07676F824B1BAAF87A2242 /* ZXQRCodeDecodedBitStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDecodedBitStreamParser.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecodedBitStreamParser.m; sourceTree = "<group>"; };
 		79A6E338D3AC3E9BF5294BD0E2EC2333 /* ZXQRCodeDecodedBitStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDecodedBitStreamParser.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecodedBitStreamParser.h; sourceTree = "<group>"; };
 		7A044B99F4569C83CC54F3FBA0F0BC3F /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "include-ios/openssl/hmac.h"; sourceTree = "<group>"; };
@@ -1425,7 +1426,7 @@
 		7B0EBF7FAA3B13D25285F7F3D8913490 /* ZXRSSExpandedFieldParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedFieldParser.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedFieldParser.h; sourceTree = "<group>"; };
 		7B21E205F79FAAD4E0CAF21FD4AC0337 /* ZXCodaBarReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCodaBarReader.m; path = ZXingObjC/oned/ZXCodaBarReader.m; sourceTree = "<group>"; };
 		7B61EA1701B64BCBF4CFFDCD67A4C8C0 /* ZXAztecSimpleToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecSimpleToken.h; path = ZXingObjC/aztec/encoder/ZXAztecSimpleToken.h; sourceTree = "<group>"; };
-		7B6DD2F974080D6381723E2EEF9D22D3 /* open.c */ = {isa = PBXFileReference; includeInIndex = 1; name = open.c; path = src/libsodium/crypto_sign/ed25519/ref10/open.c; sourceTree = "<group>"; };
+		7B6DD2F974080D6381723E2EEF9D22D3 /* open.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = open.c; path = src/libsodium/crypto_sign/ed25519/ref10/open.c; sourceTree = "<group>"; };
 		7B92E2ECEC0A337E0A5E0D2B978C6A4B /* ladder_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ladder_base.h; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base.h; sourceTree = "<group>"; };
 		7C3CD4203185D610AE517B071F1185EF /* ZXDefaultGridSampler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDefaultGridSampler.m; path = ZXingObjC/common/ZXDefaultGridSampler.m; sourceTree = "<group>"; };
 		7C4568A63B21232EBD6A3001DB6AFE32 /* ZXMultiFinderPatternFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMultiFinderPatternFinder.h; path = ZXingObjC/qrcode/multi/detector/ZXMultiFinderPatternFinder.h; sourceTree = "<group>"; };
@@ -1436,14 +1437,14 @@
 		7D3B74400CD4FFD9305B4418B9C4842C /* BTCData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCData.h; path = CoreBitcoin/BTCData.h; sourceTree = "<group>"; };
 		7E3381FC8ED361133CD1C52BC45CECE0 /* ZXAddressBookParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAddressBookParsedResult.h; path = ZXingObjC/client/result/ZXAddressBookParsedResult.h; sourceTree = "<group>"; };
 		7E6CB971FC96A2F8DDEF903C7EE54338 /* ZXRSSExpandedRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedRow.h; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedRow.h; sourceTree = "<group>"; };
-		7E8D32595AD3F90EC8EBEC0AD4BB79A6 /* core.c */ = {isa = PBXFileReference; includeInIndex = 1; name = core.c; path = src/libsodium/sodium/core.c; sourceTree = "<group>"; };
+		7E8D32595AD3F90EC8EBEC0AD4BB79A6 /* core.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = core.c; path = src/libsodium/sodium/core.c; sourceTree = "<group>"; };
 		7F235573B378E94B7CC808DCFF5A3166 /* ZXPDF417DecodedBitStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DecodedBitStreamParser.h; path = ZXingObjC/pdf417/decoder/ZXPDF417DecodedBitStreamParser.h; sourceTree = "<group>"; };
 		8002D8BFFC33239160202C516FD83922 /* ZXPDF417ErrorCorrection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417ErrorCorrection.m; path = ZXingObjC/pdf417/encoder/ZXPDF417ErrorCorrection.m; sourceTree = "<group>"; };
 		80622D12166E250CCE644FDFCA7505DC /* crypto_core_salsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_salsa20.h; path = src/libsodium/include/sodium/crypto_core_salsa20.h; sourceTree = "<group>"; };
-		8190B92D216F79429ACCF028AAAF1E72 /* generichash_blake2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = generichash_blake2.c; path = src/libsodium/crypto_generichash/blake2b/generichash_blake2.c; sourceTree = "<group>"; };
+		8190B92D216F79429ACCF028AAAF1E72 /* generichash_blake2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = generichash_blake2.c; path = src/libsodium/crypto_generichash/blake2b/generichash_blake2.c; sourceTree = "<group>"; };
 		82068B7537EF9FF3CEAC916D60FBDB9D /* ZXAztecReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecReader.m; path = ZXingObjC/aztec/ZXAztecReader.m; sourceTree = "<group>"; };
 		82403CE862E32E4BBE2DD16F6A5C1894 /* consts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = consts.h; path = src/libsodium/crypto_stream/aes128ctr/nacl/consts.h; sourceTree = "<group>"; };
-		825E1858AB8A5D0FD76B181132523DBD /* utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utils.c; path = src/libsodium/sodium/utils.c; sourceTree = "<group>"; };
+		825E1858AB8A5D0FD76B181132523DBD /* utils.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utils.c; path = src/libsodium/sodium/utils.c; sourceTree = "<group>"; };
 		82A8532E3EF4089360453D05E475D7B3 /* ZXByteArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXByteArray.h; path = ZXingObjC/common/ZXByteArray.h; sourceTree = "<group>"; };
 		82CDA31FB6ED101D84CEE10F9E8A4832 /* ZXAnyAIDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAnyAIDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAnyAIDecoder.m; sourceTree = "<group>"; };
 		82FA017E8C92F6D69C7902A97D0484F0 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = "include-ios/openssl/conf_api.h"; sourceTree = "<group>"; };
@@ -1457,7 +1458,7 @@
 		856F38404DDBADA2B643A67B81E2F6ED /* ZXBitArrayBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitArrayBuilder.m; path = ZXingObjC/oned/rss/expanded/ZXBitArrayBuilder.m; sourceTree = "<group>"; };
 		858BA4D0F32FCA285516E20CD2E7FB3E /* ZXWhiteRectangleDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXWhiteRectangleDetector.h; path = ZXingObjC/common/detector/ZXWhiteRectangleDetector.h; sourceTree = "<group>"; };
 		859972EF386EFD6325C86C2870B457C6 /* crypto_pwhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_pwhash.h; path = src/libsodium/include/sodium/crypto_pwhash.h; sourceTree = "<group>"; };
-		85A01882ED06DFEA2E0CE78BCDB204A7 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8642E3D7BB6AAD03F769DB882492B485 /* ZXDataMatrixSymbolInfo144.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixSymbolInfo144.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo144.m; sourceTree = "<group>"; };
 		868F3B02E1D4954E5B724A64029563B5 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = "include-ios/openssl/symhacks.h"; sourceTree = "<group>"; };
 		8690ADADBA23F17AED10D33A3D378898 /* ZXPDF417Codeword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Codeword.h; path = ZXingObjC/pdf417/decoder/ZXPDF417Codeword.h; sourceTree = "<group>"; };
@@ -1477,7 +1478,7 @@
 		8B679FF27736C77EFC0E7F63AF45D901 /* ZXMultiFormatWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMultiFormatWriter.h; path = ZXingObjC/ZXMultiFormatWriter.h; sourceTree = "<group>"; };
 		8C5286BC02EC23022054BD7B531B011B /* ZXQRCodeFormatInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeFormatInformation.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeFormatInformation.m; sourceTree = "<group>"; };
 		8C621867F69D34F31D29EB9E94C5DE0A /* ZXDataMatrixDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDecoder.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecoder.m; sourceTree = "<group>"; };
-		8CA70E682E8910EDA5E5F3106529B0F0 /* x25519_ref10.c */ = {isa = PBXFileReference; includeInIndex = 1; name = x25519_ref10.c; path = src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c; sourceTree = "<group>"; };
+		8CA70E682E8910EDA5E5F3106529B0F0 /* x25519_ref10.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = x25519_ref10.c; path = src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c; sourceTree = "<group>"; };
 		8CC7337F663ACEB75477A574013F81E1 /* ZXRSSExpandedCurrentParsingState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedCurrentParsingState.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedCurrentParsingState.h; sourceTree = "<group>"; };
 		8CDAAFD16A230A40E3B88F65BAF59233 /* ZXQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCode.m; path = ZXingObjC/qrcode/encoder/ZXQRCode.m; sourceTree = "<group>"; };
 		8D384BAADCA884D9094F1834FFCFF945 /* BTCTransactionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCTransactionBuilder.h; path = CoreBitcoin/BTCTransactionBuilder.h; sourceTree = "<group>"; };
@@ -1490,14 +1491,14 @@
 		917DBB2A3B8AABAE2629C4FA2F7BEDE9 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = "include-ios/openssl/dtls1.h"; sourceTree = "<group>"; };
 		91FF14686EBB77687EB098220A62C0D2 /* ladder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ladder.h; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.h; sourceTree = "<group>"; };
 		92208951E0D23599B92DA7EF02B0B4A8 /* ZXMonochromeRectangleDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMonochromeRectangleDetector.m; path = ZXingObjC/common/detector/ZXMonochromeRectangleDetector.m; sourceTree = "<group>"; };
-		92A6DAC75D9CBCA29562419A9D11957F /* crypto_scrypt-common.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto_scrypt-common.c"; path = "src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c"; sourceTree = "<group>"; };
-		92B4C74B6D6E0D619E13F2838989CBC3 /* salsa20_xmm6int-avx2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "salsa20_xmm6int-avx2.c"; path = "src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c"; sourceTree = "<group>"; };
-		92B8B2E101B95B50AF71739F22269D8C /* pwhash_scryptsalsa208sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwhash_scryptsalsa208sha256.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c; sourceTree = "<group>"; };
+		92A6DAC75D9CBCA29562419A9D11957F /* crypto_scrypt-common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-common.c"; path = "src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c"; sourceTree = "<group>"; };
+		92B4C74B6D6E0D619E13F2838989CBC3 /* salsa20_xmm6int-avx2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "salsa20_xmm6int-avx2.c"; path = "src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c"; sourceTree = "<group>"; };
+		92B8B2E101B95B50AF71739F22269D8C /* pwhash_scryptsalsa208sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwhash_scryptsalsa208sha256.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c; sourceTree = "<group>"; };
 		92EA56D10342BF9C69530D0302F8C960 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = "include-ios/openssl/comp.h"; sourceTree = "<group>"; };
-		93087E80DE411D60C4592A3B9D4D00E9 /* int128_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = int128_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/int128_aes128ctr.c; sourceTree = "<group>"; };
+		93087E80DE411D60C4592A3B9D4D00E9 /* int128_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = int128_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/int128_aes128ctr.c; sourceTree = "<group>"; };
 		9312E2B3C8AC87B39339FCAFD8A4105E /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
 		93CB270ADAFF09E0CE0A039A9809E176 /* ZXTelParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXTelParsedResult.h; path = ZXingObjC/client/result/ZXTelParsedResult.h; sourceTree = "<group>"; };
-		9421A85D6B0708B4E874BE1BD6B945A8 /* stream_xsalsa20.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_xsalsa20.c; path = src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c; sourceTree = "<group>"; };
+		9421A85D6B0708B4E874BE1BD6B945A8 /* stream_xsalsa20.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_xsalsa20.c; path = src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c; sourceTree = "<group>"; };
 		944197C657479C10476472E6369FE779 /* ZXUPCEANExtension2Support.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEANExtension2Support.m; path = ZXingObjC/oned/ZXUPCEANExtension2Support.m; sourceTree = "<group>"; };
 		94C36D17540EBCA4523C280B85F296CA /* ZXGlobalHistogramBinarizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGlobalHistogramBinarizer.h; path = ZXingObjC/common/ZXGlobalHistogramBinarizer.h; sourceTree = "<group>"; };
 		94D2ABB464EC4D3B51DDFB83D47BED7F /* BTC256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTC256.h; path = CoreBitcoin/BTC256.h; sourceTree = "<group>"; };
@@ -1505,7 +1506,7 @@
 		9513D1DAED9CA863329FE104286E14D1 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = "include-ios/openssl/opensslconf.h"; sourceTree = "<group>"; };
 		958FD951BD0C4321880BFF80F07C8FD4 /* ZXQRCodeDataBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDataBlock.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDataBlock.h; sourceTree = "<group>"; };
 		95D0B6F441A0D20B17EA3B27A58E8D57 /* ZXDetectorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDetectorResult.h; path = ZXingObjC/common/ZXDetectorResult.h; sourceTree = "<group>"; };
-		9623C271B0C2BE9C94F9D537643F24E3 /* crypto_pwhash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_pwhash.c; path = src/libsodium/crypto_pwhash/crypto_pwhash.c; sourceTree = "<group>"; };
+		9623C271B0C2BE9C94F9D537643F24E3 /* crypto_pwhash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_pwhash.c; path = src/libsodium/crypto_pwhash/crypto_pwhash.c; sourceTree = "<group>"; };
 		965A1467166939B83DA75072117F3A11 /* ZXDataMatrixTextEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixTextEncoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixTextEncoder.m; sourceTree = "<group>"; };
 		965B48E892021B4AB7E7813DF44F5DC0 /* ZXAztecCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecCode.h; path = ZXingObjC/aztec/encoder/ZXAztecCode.h; sourceTree = "<group>"; };
 		96F2C24CB14A57712B283A27C28AF3D8 /* ZXDataMatrixASCIIEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixASCIIEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixASCIIEncoder.h; sourceTree = "<group>"; };
@@ -1526,16 +1527,16 @@
 		9B3509621E85E30749C64D8CA0C885AC /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = "include-ios/openssl/engine.h"; sourceTree = "<group>"; };
 		9B585AE5AE3F418EDA8B48EA1B559CB0 /* BTCAssetType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCAssetType.m; path = CoreBitcoin/BTCAssetType.m; sourceTree = "<group>"; };
 		9C5A069BFABC5CC8F3A7B3C7E4621DBF /* ZXEANManufacturerOrgSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEANManufacturerOrgSupport.h; path = ZXingObjC/oned/ZXEANManufacturerOrgSupport.h; sourceTree = "<group>"; };
-		9C68E9AC2E32EF4FFB4E6ADB02B34AB5 /* libCoreBitcoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCoreBitcoin.a; path = libCoreBitcoin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C68E9AC2E32EF4FFB4E6ADB02B34AB5 /* libCoreBitcoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreBitcoin.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C73723F920566C76B6D3D08B9F298F5 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = "include-ios/openssl/pem.h"; sourceTree = "<group>"; };
-		9C80A0D82E238FCE9B6039AE19CCB1D7 /* crypto_generichash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_generichash.c; path = src/libsodium/crypto_generichash/crypto_generichash.c; sourceTree = "<group>"; };
+		9C80A0D82E238FCE9B6039AE19CCB1D7 /* crypto_generichash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_generichash.c; path = src/libsodium/crypto_generichash/crypto_generichash.c; sourceTree = "<group>"; };
 		9CE34E7FE653A573B12EDC592A6DD181 /* BTCTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCTransaction.m; path = CoreBitcoin/BTCTransaction.m; sourceTree = "<group>"; };
 		9CEB27CDBB75CE8C790A4D1C9F097810 /* ZXUPCEWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEWriter.m; path = ZXingObjC/oned/ZXUPCEWriter.m; sourceTree = "<group>"; };
-		9CF7C419BE3EBEB9E890CB8FBBC01DCD /* chacha20_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = chacha20_ref.c; path = src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c; sourceTree = "<group>"; };
+		9CF7C419BE3EBEB9E890CB8FBBC01DCD /* chacha20_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = chacha20_ref.c; path = src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c; sourceTree = "<group>"; };
 		9D49745B1B63C3C89B9D59AAD707F5C4 /* ZXRSSExpandedReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedReader.m; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedReader.m; sourceTree = "<group>"; };
 		9D7A8A617E35311354EBB4F1C527C90D /* ZXTextParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXTextParsedResult.h; path = ZXingObjC/client/result/ZXTextParsedResult.h; sourceTree = "<group>"; };
 		9D92E879900801404867E18D7DC8188C /* ZXSMSParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXSMSParsedResult.m; path = ZXingObjC/client/result/ZXSMSParsedResult.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBAAACDAFEE5CB2D3CFE808647BA8AE /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = "include-ios/openssl/err.h"; sourceTree = "<group>"; };
 		9DC01E08A59B5823101812D24EEA67A9 /* BTCEncryptedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCEncryptedMessage.h; path = CoreBitcoin/BTCEncryptedMessage.h; sourceTree = "<group>"; };
 		9E1582BC5CA811A7D501298DEFAC4F9A /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
@@ -1556,9 +1557,9 @@
 		A33368D9E7B929064FC5269A91C1597E /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = "include-ios/openssl/ecdsa.h"; sourceTree = "<group>"; };
 		A33DBCAADD5F08625A1D2E36FB3DB252 /* ZXPDF417ResultMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417ResultMetadata.h; path = ZXingObjC/pdf417/ZXPDF417ResultMetadata.h; sourceTree = "<group>"; };
 		A38737F7F01F1ED2595E20A6876FE8F0 /* ZXPDF417DetectionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DetectionResult.h; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResult.h; sourceTree = "<group>"; };
-		A4071336C6493504572EF9BFAA64638D /* libISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libISO8601DateFormatter.a; path = libISO8601DateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4071336C6493504572EF9BFAA64638D /* libISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISO8601DateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B56DBD74D87A4441A5CD4DEA983630 /* crypto_shorthash_siphash24.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_shorthash_siphash24.h; path = src/libsodium/include/sodium/crypto_shorthash_siphash24.h; sourceTree = "<group>"; };
-		A5888642239A5E2DD8F347CEDBA15F2F /* pbkdf2-sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "pbkdf2-sha256.c"; path = "src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c"; sourceTree = "<group>"; };
+		A5888642239A5E2DD8F347CEDBA15F2F /* pbkdf2-sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "pbkdf2-sha256.c"; path = "src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c"; sourceTree = "<group>"; };
 		A5AAC3CC23DC605B621D8A49487E9D81 /* crypto_scalarmult_curve25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_scalarmult_curve25519.h; path = src/libsodium/include/sodium/crypto_scalarmult_curve25519.h; sourceTree = "<group>"; };
 		A5BA3A253E146962E89C60988D3F31C4 /* ZXRGBLuminanceSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRGBLuminanceSource.m; path = ZXingObjC/core/ZXRGBLuminanceSource.m; sourceTree = "<group>"; };
 		A5C468B976640A5BB7F1FCF9530E1EA3 /* ZXAbstractExpandedDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAbstractExpandedDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAbstractExpandedDecoder.m; sourceTree = "<group>"; };
@@ -1567,7 +1568,7 @@
 		A67E454037696F0C2C7C628CD9B08139 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = "include-ios/openssl/bio.h"; sourceTree = "<group>"; };
 		A69CE212E805DF51110DF639DBE68E55 /* ZXAI013103decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI013103decoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013103decoder.h; sourceTree = "<group>"; };
 		A6C0F7A7E81E981092F30C7E093ADCFD /* ladder_base_namespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ladder_base_namespace.h; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base_namespace.h; sourceTree = "<group>"; };
-		A70423394F3AE87980EF4A6A6C30D697 /* auth_hmacsha512.c */ = {isa = PBXFileReference; includeInIndex = 1; name = auth_hmacsha512.c; path = src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c; sourceTree = "<group>"; };
+		A70423394F3AE87980EF4A6A6C30D697 /* auth_hmacsha512.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = auth_hmacsha512.c; path = src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c; sourceTree = "<group>"; };
 		A73A6FCADC7A5F1E130B7B7925C0F109 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = "include-ios/openssl/conf.h"; sourceTree = "<group>"; };
 		A74889B0DA8698FF16999F98CE083AB7 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
 		A7A0686CF972185ADA82BEB9704C0645 /* ZXCGImageLuminanceSourceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCGImageLuminanceSourceInfo.h; path = ZXingObjC/client/ZXCGImageLuminanceSourceInfo.h; sourceTree = "<group>"; };
@@ -1586,20 +1587,20 @@
 		AB52FDC09894451980667ED7AA005E1F /* ZXDecimal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDecimal.m; path = ZXingObjC/common/ZXDecimal.m; sourceTree = "<group>"; };
 		AB8855D39FD4868AA250DDFCFF4F7340 /* BTCBitcoinURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCBitcoinURL.h; path = CoreBitcoin/BTCBitcoinURL.h; sourceTree = "<group>"; };
 		AB97C1395D3328526BEC369FB7003CEA /* ZXAI01392xDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI01392xDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01392xDecoder.h; sourceTree = "<group>"; };
-		ABB5DD9AFFC08D724206B9C5BB1B95DB /* argon2-core.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "argon2-core.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-core.c"; sourceTree = "<group>"; };
+		ABB5DD9AFFC08D724206B9C5BB1B95DB /* argon2-core.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "argon2-core.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-core.c"; sourceTree = "<group>"; };
 		AC129070CD830A5D4BB04CFC4FA4F509 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = src/libsodium/crypto_stream/aes128ctr/nacl/common.h; sourceTree = "<group>"; };
 		ACC6A81FCA8CF73E6323D17EB7B17C5F /* ZXDataMatrixSymbolInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixSymbolInfo.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo.m; sourceTree = "<group>"; };
 		AD683E9887108F379EAD023A38574C2B /* ZXPDF417Detector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Detector.m; path = ZXingObjC/pdf417/detector/ZXPDF417Detector.m; sourceTree = "<group>"; };
 		AE20037A9EF63BD89EAC62587D20864A /* ZXDataMatrixReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixReader.h; path = ZXingObjC/datamatrix/ZXDataMatrixReader.h; sourceTree = "<group>"; };
 		AE2DD9D5AFC4B9030567F0C76C53F322 /* ZXDataMatrixBitMatrixParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixBitMatrixParser.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixBitMatrixParser.h; sourceTree = "<group>"; };
-		AEA3F94252F796F465D443CB8B9BFDCE /* crypto_box.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_box.c; path = src/libsodium/crypto_box/crypto_box.c; sourceTree = "<group>"; };
+		AEA3F94252F796F465D443CB8B9BFDCE /* crypto_box.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_box.c; path = src/libsodium/crypto_box/crypto_box.c; sourceTree = "<group>"; };
 		AEEEE35253BC28795D78E1C62AA59FB9 /* ZXAztecDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecDecoder.m; path = ZXingObjC/aztec/decoder/ZXAztecDecoder.m; sourceTree = "<group>"; };
 		AF2880DE5CC3F6B422216B392E11EE7C /* ZXRSSDataCharacter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSDataCharacter.m; path = ZXingObjC/oned/rss/ZXRSSDataCharacter.m; sourceTree = "<group>"; };
 		AF5C1E9842E1E72D70747EC21300986F /* ZXReedSolomonDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXReedSolomonDecoder.h; path = ZXingObjC/common/reedsolomon/ZXReedSolomonDecoder.h; sourceTree = "<group>"; };
 		AFB252412F52C617977F543E31A8D6DF /* ZXPlanarYUVLuminanceSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPlanarYUVLuminanceSource.m; path = ZXingObjC/core/ZXPlanarYUVLuminanceSource.m; sourceTree = "<group>"; };
 		AFB92E3FA05852DEA968134F1FB21471 /* ZXDataMatrixEdifactEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixEdifactEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEdifactEncoder.h; sourceTree = "<group>"; };
 		AFCB0CA47CBFF008A25D2F18A5AE67D8 /* randombytes_salsa20_random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes_salsa20_random.h; path = src/libsodium/include/sodium/randombytes_salsa20_random.h; sourceTree = "<group>"; };
-		AFEF258B58766C9B48866B104FC11F66 /* pwhash_scryptsalsa208sha256_sse.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwhash_scryptsalsa208sha256_sse.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c; sourceTree = "<group>"; };
+		AFEF258B58766C9B48866B104FC11F66 /* pwhash_scryptsalsa208sha256_sse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwhash_scryptsalsa208sha256_sse.c; path = src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c; sourceTree = "<group>"; };
 		B00156EF21C977354B979B8350D93B71 /* ZXOneDReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXOneDReader.h; path = ZXingObjC/oned/ZXOneDReader.h; sourceTree = "<group>"; };
 		B0C29A6BE96F27BD764A2BCCA5FDEA7A /* argon2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = argon2.h; path = src/libsodium/crypto_pwhash/argon2/argon2.h; sourceTree = "<group>"; };
 		B0D948CF4D564192E484CB3BB3FA1E77 /* ZXVINParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXVINParsedResult.h; path = ZXingObjC/client/result/ZXVINParsedResult.h; sourceTree = "<group>"; };
@@ -1626,32 +1627,32 @@
 		B65FB0398B0BE7CE5960D034CC0D0E48 /* ZXMaxiCodeReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMaxiCodeReader.m; path = ZXingObjC/maxicode/ZXMaxiCodeReader.m; sourceTree = "<group>"; };
 		B72EF461437A3046DC681BF4089BB37D /* ZXOneDimensionalCodeWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXOneDimensionalCodeWriter.h; path = ZXingObjC/oned/ZXOneDimensionalCodeWriter.h; sourceTree = "<group>"; };
 		B7B03BAFB9B6965BB9114D66DFFA7C21 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "include-ios/openssl/camellia.h"; sourceTree = "<group>"; };
-		B898934F837A381D44CBC8CA8331FA89 /* hash_sha512_cp.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hash_sha512_cp.c; path = src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c; sourceTree = "<group>"; };
+		B898934F837A381D44CBC8CA8331FA89 /* hash_sha512_cp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash_sha512_cp.c; path = src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c; sourceTree = "<group>"; };
 		B8A5B634A2D978346F86A4E92199D051 /* ZXEAN8Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEAN8Writer.m; path = ZXingObjC/oned/ZXEAN8Writer.m; sourceTree = "<group>"; };
-		B8F4BB5937EE9B3B3F4D1EEC2B0E74D9 /* auth_hmacsha512256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = auth_hmacsha512256.c; path = src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c; sourceTree = "<group>"; };
+		B8F4BB5937EE9B3B3F4D1EEC2B0E74D9 /* auth_hmacsha512256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = auth_hmacsha512256.c; path = src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c; sourceTree = "<group>"; };
 		B905363DCC88A7CE1C1670C99051AAF4 /* BTCPaymentRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCPaymentRequest.m; path = CoreBitcoin/BTCPaymentRequest.m; sourceTree = "<group>"; };
 		BA2B4CC83584138624E6FA6BB48A10A6 /* ZXISBNParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXISBNParsedResult.h; path = ZXingObjC/client/result/ZXISBNParsedResult.h; sourceTree = "<group>"; };
 		BA38AFA6B563CE3FAF9855D24650FE7A /* ZXMultiFormatReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMultiFormatReader.h; path = ZXingObjC/ZXMultiFormatReader.h; sourceTree = "<group>"; };
 		BA4FBC5F0543693B6A014D99D7BAD5C5 /* ZXPDF417DetectorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DetectorResult.h; path = ZXingObjC/pdf417/detector/ZXPDF417DetectorResult.h; sourceTree = "<group>"; };
 		BA6C7E8D82381955F3B695CD15795C07 /* ZXingObjCDataMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCDataMatrix.h; path = ZXingObjC/datamatrix/ZXingObjCDataMatrix.h; sourceTree = "<group>"; };
-		BA9585C3BEF0076C024AF1C0FD006E87 /* core_salsa_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = core_salsa_ref.c; path = src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c; sourceTree = "<group>"; };
-		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9585C3BEF0076C024AF1C0FD006E87 /* core_salsa_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = core_salsa_ref.c; path = src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c; sourceTree = "<group>"; };
+		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAF7A1F05AFB99241450D9541845317 /* ZXPDF417BoundingBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BoundingBox.m; path = ZXingObjC/pdf417/decoder/ZXPDF417BoundingBox.m; sourceTree = "<group>"; };
 		BB0B3EB2204CF7414D58204382B01DD7 /* Pods-WebSocketClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebSocketClient-dummy.m"; sourceTree = "<group>"; };
 		BB1F950CD98A1427F0EDD9D859722A07 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = "include-ios/openssl/srp.h"; sourceTree = "<group>"; };
 		BB28CA3DF19FD7E100E7C6F3173D471E /* NAAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAAuth.h; path = NAChloride/NAAuth.h; sourceTree = "<group>"; };
 		BB48CDA6A933233B4A6DAF0E3657312E /* ZXDataMatrixWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixWriter.m; path = ZXingObjC/datamatrix/ZXDataMatrixWriter.m; sourceTree = "<group>"; };
-		BB5D8073335F9A49EC6B16333569A851 /* crypto_secretbox_easy.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_secretbox_easy.c; path = src/libsodium/crypto_secretbox/crypto_secretbox_easy.c; sourceTree = "<group>"; };
+		BB5D8073335F9A49EC6B16333569A851 /* crypto_secretbox_easy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_secretbox_easy.c; path = src/libsodium/crypto_secretbox/crypto_secretbox_easy.c; sourceTree = "<group>"; };
 		BBD70FD4B13FAFB36F62B7508B6454CF /* ZXCharacterSetECI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCharacterSetECI.m; path = ZXingObjC/common/ZXCharacterSetECI.m; sourceTree = "<group>"; };
 		BBDFAD06CF97E143AA3A0267A0D5258B /* crypto_secretbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_secretbox.h; path = src/libsodium/include/sodium/crypto_secretbox.h; sourceTree = "<group>"; };
 		BBFD8EDF5CADDFC1977EEF336E59D046 /* ZXWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXWriter.h; path = ZXingObjC/core/ZXWriter.h; sourceTree = "<group>"; };
-		BC2C74524BF93B09321A4A9043C63AC2 /* afternm_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = afternm_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/afternm_aes128ctr.c; sourceTree = "<group>"; };
-		BC33496746E55E18362476290CD081DC /* shorthash_siphash24_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shorthash_siphash24_ref.c; path = src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c; sourceTree = "<group>"; };
+		BC2C74524BF93B09321A4A9043C63AC2 /* afternm_aes128ctr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = afternm_aes128ctr.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/afternm_aes128ctr.c; sourceTree = "<group>"; };
+		BC33496746E55E18362476290CD081DC /* shorthash_siphash24_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = shorthash_siphash24_ref.c; path = src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c; sourceTree = "<group>"; };
 		BC4C59CED2888BADDC61FCDF717E9A78 /* ZXDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDimension.m; path = ZXingObjC/core/ZXDimension.m; sourceTree = "<group>"; };
 		BC80192438A0D6DF16AC204A22FE71E3 /* ZXQRCodeDataBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDataBlock.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDataBlock.m; sourceTree = "<group>"; };
 		BCC6B989A52F491D9863E5B6C1372721 /* ZXAddressBookAUResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAddressBookAUResultParser.m; path = ZXingObjC/client/result/ZXAddressBookAUResultParser.m; sourceTree = "<group>"; };
-		BCD0E6EF24B9F7392A869345CEF7DD26 /* randombytes_nativeclient.c */ = {isa = PBXFileReference; includeInIndex = 1; name = randombytes_nativeclient.c; path = src/libsodium/randombytes/nativeclient/randombytes_nativeclient.c; sourceTree = "<group>"; };
-		BCDEA5071C1A84445E48A9D91892D0E1 /* salsa20_xmm6int-sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "salsa20_xmm6int-sse2.c"; path = "src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c"; sourceTree = "<group>"; };
+		BCD0E6EF24B9F7392A869345CEF7DD26 /* randombytes_nativeclient.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = randombytes_nativeclient.c; path = src/libsodium/randombytes/nativeclient/randombytes_nativeclient.c; sourceTree = "<group>"; };
+		BCDEA5071C1A84445E48A9D91892D0E1 /* salsa20_xmm6int-sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "salsa20_xmm6int-sse2.c"; path = "src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c"; sourceTree = "<group>"; };
 		BD43693A8A905E7DD716B3C0317685A8 /* ZXAztecHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecHighLevelEncoder.m; path = ZXingObjC/aztec/encoder/ZXAztecHighLevelEncoder.m; sourceTree = "<group>"; };
 		BD684F6867DF63B3C12C51C73EB964F1 /* ZXQRCodeBitMatrixParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeBitMatrixParser.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeBitMatrixParser.m; sourceTree = "<group>"; };
 		BD6B73FD8735415A0A912D4FF4B3399C /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
@@ -1670,9 +1671,9 @@
 		C0C8ED993340A924A296B8E9DBA6AF28 /* ZXPDF417DetectionResultRowIndicatorColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417DetectionResultRowIndicatorColumn.m; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultRowIndicatorColumn.m; sourceTree = "<group>"; };
 		C0D34041BF73DF29EADF2025BC6E9EEE /* ZXCode39Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode39Reader.m; path = ZXingObjC/oned/ZXCode39Reader.m; sourceTree = "<group>"; };
 		C10FC888E0CBF43A72C6D7AA951057BD /* ZXReedSolomonEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXReedSolomonEncoder.h; path = ZXingObjC/common/reedsolomon/ZXReedSolomonEncoder.h; sourceTree = "<group>"; };
-		C120FDD16AAFCCAE68C495C96ABE2030 /* aead_xchacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aead_xchacha20poly1305.c; path = src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c; sourceTree = "<group>"; };
+		C120FDD16AAFCCAE68C495C96ABE2030 /* aead_xchacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aead_xchacha20poly1305.c; path = src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c; sourceTree = "<group>"; };
 		C195BCE0BF82670E533CD7F133777A44 /* NARandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NARandom.h; path = NAChloride/NARandom.h; sourceTree = "<group>"; };
-		C1E9C3C648F9C850C17C05E6778571C1 /* poly1305_donna.c */ = {isa = PBXFileReference; includeInIndex = 1; name = poly1305_donna.c; path = src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c; sourceTree = "<group>"; };
+		C1E9C3C648F9C850C17C05E6778571C1 /* poly1305_donna.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = poly1305_donna.c; path = src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c; sourceTree = "<group>"; };
 		C1FEDAD761153167DF460DB810C1322D /* ZXAztecEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecEncoder.m; path = ZXingObjC/aztec/encoder/ZXAztecEncoder.m; sourceTree = "<group>"; };
 		C25C7862880036D3015DAD24FC37CB80 /* ZXQRCodeVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeVersion.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeVersion.m; sourceTree = "<group>"; };
 		C26C08A3CEF7B88D62773CB0E224DF00 /* ZXQRCodeAlignmentPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeAlignmentPattern.m; path = ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPattern.m; sourceTree = "<group>"; };
@@ -1682,10 +1683,10 @@
 		C3428B76B1375A67E10CADC39D3563F7 /* ZXEAN13Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN13Writer.h; path = ZXingObjC/oned/ZXEAN13Writer.h; sourceTree = "<group>"; };
 		C35150069DC0F279B03AC0D061F64338 /* ZXPDF417.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417.m; path = ZXingObjC/pdf417/encoder/ZXPDF417.m; sourceTree = "<group>"; };
 		C379BEB8BCA4D41AA34218E2CE49E7FA /* ZXResultPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXResultPoint.h; path = ZXingObjC/core/ZXResultPoint.h; sourceTree = "<group>"; };
-		C3D77024233E50FB90E54C1A7C69B15C /* libPods-WebSocketClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WebSocketClient.a"; path = "libPods-WebSocketClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D77024233E50FB90E54C1A7C69B15C /* libPods-WebSocketClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebSocketClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41FC16C2B1724D7D63132314D9CA8C5 /* BTCKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCKey.h; path = CoreBitcoin/BTCKey.h; sourceTree = "<group>"; };
 		C451C953AC555418254ADB88F51AB76B /* ZXExpandedProductResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXExpandedProductResultParser.m; path = ZXingObjC/client/result/ZXExpandedProductResultParser.m; sourceTree = "<group>"; };
-		C47ABFAF661B7A3D20F79DD3D1552CE1 /* curve25519_donna_c64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = curve25519_donna_c64.c; path = src/libsodium/crypto_scalarmult/curve25519/donna_c64/curve25519_donna_c64.c; sourceTree = "<group>"; };
+		C47ABFAF661B7A3D20F79DD3D1552CE1 /* curve25519_donna_c64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = curve25519_donna_c64.c; path = src/libsodium/crypto_scalarmult/curve25519/donna_c64/curve25519_donna_c64.c; sourceTree = "<group>"; };
 		C49F82B4149CBCAE2D3583C8980B90A5 /* BTCSecretSharing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCSecretSharing.m; path = CoreBitcoin/BTCSecretSharing.m; sourceTree = "<group>"; };
 		C50C46D53B8C21E1594871AEE5D0E136 /* ZXPDF417BarcodeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BarcodeValue.m; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeValue.m; sourceTree = "<group>"; };
 		C543976580A71BDC9A26A90A4FE0D2B3 /* utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utils.h; path = src/libsodium/include/sodium/utils.h; sourceTree = "<group>"; };
@@ -1714,11 +1715,11 @@
 		CC88A9918F8B38C6FA17504ADFE4AED1 /* BTCSecretSharing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCSecretSharing.h; path = CoreBitcoin/BTCSecretSharing.h; sourceTree = "<group>"; };
 		CC8BBB4FE08F275EC7F86D126EB0F0B2 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = "include-ios/openssl/asn1t.h"; sourceTree = "<group>"; };
 		CCA0A03F9EB13655FEA7811B3C54495F /* ZXAztecDetectorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecDetectorResult.h; path = ZXingObjC/aztec/ZXAztecDetectorResult.h; sourceTree = "<group>"; };
-		CCB11C6AC71B7AE86934648AAB031D36 /* argon2-encoding.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "argon2-encoding.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-encoding.c"; sourceTree = "<group>"; };
+		CCB11C6AC71B7AE86934648AAB031D36 /* argon2-encoding.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "argon2-encoding.c"; path = "src/libsodium/crypto_pwhash/argon2/argon2-encoding.c"; sourceTree = "<group>"; };
 		CD086286CE0BBF31C577C1F05B979CA7 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = "include-ios/openssl/ecdh.h"; sourceTree = "<group>"; };
 		CDB86CD8D2008B0304AFC85826444081 /* ZXRSSUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSUtils.h; path = ZXingObjC/oned/rss/ZXRSSUtils.h; sourceTree = "<group>"; };
 		CDB8E427EF637BE513E86456067E6425 /* ZXPDF417ECErrorCorrection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417ECErrorCorrection.m; path = ZXingObjC/pdf417/decoder/ec/ZXPDF417ECErrorCorrection.m; sourceTree = "<group>"; };
-		CDD2DFEB2FDF3A453AA062B843FA2245 /* crypto_onetimeauth.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_onetimeauth.c; path = src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c; sourceTree = "<group>"; };
+		CDD2DFEB2FDF3A453AA062B843FA2245 /* crypto_onetimeauth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_onetimeauth.c; path = src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c; sourceTree = "<group>"; };
 		CE2950A0D9ED923131E55E96C086F040 /* ZXErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXErrors.m; path = ZXingObjC/core/ZXErrors.m; sourceTree = "<group>"; };
 		CE37CCDB0A38A5F8646C11564C653AFF /* ZXQRCodeFinderPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeFinderPattern.m; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPattern.m; sourceTree = "<group>"; };
 		CE5A2E34D9FA3DAACCE8EE248A271283 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = "include-ios/openssl/pkcs12.h"; sourceTree = "<group>"; };
@@ -1741,7 +1742,7 @@
 		D4A6E985855B916CD86C0D7FA1E0DDF5 /* BTCTransactionOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCTransactionOutput.h; path = CoreBitcoin/BTCTransactionOutput.h; sourceTree = "<group>"; };
 		D4B6E5252377C7E57946F8E4E632DCEA /* ZXMultiFormatUPCEANReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMultiFormatUPCEANReader.h; path = ZXingObjC/oned/ZXMultiFormatUPCEANReader.h; sourceTree = "<group>"; };
 		D4D1A2C5AF06770AB89830F0A3B7C53E /* crypto_secretbox_xsalsa20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_secretbox_xsalsa20poly1305.h; path = src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h; sourceTree = "<group>"; };
-		D4DA2BE924D59002D76BAA30970C3F62 /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; name = version.c; path = src/libsodium/sodium/version.c; sourceTree = "<group>"; };
+		D4DA2BE924D59002D76BAA30970C3F62 /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = version.c; path = src/libsodium/sodium/version.c; sourceTree = "<group>"; };
 		D5096853E630A2D5FD7B5E54F83BFB01 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = "include-ios/openssl/dso.h"; sourceTree = "<group>"; };
 		D51971D8DBE82BE6A9C90029A58D54DA /* ZXPlanarYUVLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPlanarYUVLuminanceSource.h; path = ZXingObjC/core/ZXPlanarYUVLuminanceSource.h; sourceTree = "<group>"; };
 		D52025B5D60C9C9BBF6414EFC83532CF /* ZXAI013x0xDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI013x0xDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013x0xDecoder.h; sourceTree = "<group>"; };
@@ -1749,15 +1750,15 @@
 		D5A1D3599CC7C713AE561DAF6B5E3AA0 /* ZXResultPointCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXResultPointCallback.h; path = ZXingObjC/core/ZXResultPointCallback.h; sourceTree = "<group>"; };
 		D5C562DCC3ABD255F4B2187A722EF230 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "include-ios/openssl/stack.h"; sourceTree = "<group>"; };
 		D6896AC365B9C709A40D9C8ED772CD8F /* ZXAbstractExpandedDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAbstractExpandedDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAbstractExpandedDecoder.h; sourceTree = "<group>"; };
-		D6989FAE46CC907B8EA86367C00F4363 /* randombytes_salsa20_random.c */ = {isa = PBXFileReference; includeInIndex = 1; name = randombytes_salsa20_random.c; path = src/libsodium/randombytes/salsa20/randombytes_salsa20_random.c; sourceTree = "<group>"; };
+		D6989FAE46CC907B8EA86367C00F4363 /* randombytes_salsa20_random.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = randombytes_salsa20_random.c; path = src/libsodium/randombytes/salsa20/randombytes_salsa20_random.c; sourceTree = "<group>"; };
 		D6E4111A3274B8CB61543B7D6CB03A66 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = "include-ios/openssl/obj_mac.h"; sourceTree = "<group>"; };
 		D6FE5DDD1D78DE5F78FAAB38CB0B70ED /* NASecretBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NASecretBox.h; path = NAChloride/NASecretBox.h; sourceTree = "<group>"; };
 		D7278327129C13F430E4078371A094EE /* ZXGridSampler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGridSampler.h; path = ZXingObjC/common/ZXGridSampler.h; sourceTree = "<group>"; };
 		D73FEAF039094973C9FFBB44FD97774D /* ZXPDF417ErrorCorrection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417ErrorCorrection.h; path = ZXingObjC/pdf417/encoder/ZXPDF417ErrorCorrection.h; sourceTree = "<group>"; };
 		D7A088722A44DB996359437D5F65D9B1 /* ZXMultiFormatWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMultiFormatWriter.m; path = ZXingObjC/ZXMultiFormatWriter.m; sourceTree = "<group>"; };
-		D7A994173DA0E118E7366F3E478F036D /* curve25519_sandy2x.c */ = {isa = PBXFileReference; includeInIndex = 1; name = curve25519_sandy2x.c; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c; sourceTree = "<group>"; };
+		D7A994173DA0E118E7366F3E478F036D /* curve25519_sandy2x.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = curve25519_sandy2x.c; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c; sourceTree = "<group>"; };
 		D82ADFC5C7C2F9EA4D10E5F6781D882B /* blake2b-long.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "blake2b-long.h"; path = "src/libsodium/crypto_pwhash/argon2/blake2b-long.h"; sourceTree = "<group>"; };
-		D85646426A54C5D02A24ADEAFDEB2751 /* crypto_auth.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_auth.c; path = src/libsodium/crypto_auth/crypto_auth.c; sourceTree = "<group>"; };
+		D85646426A54C5D02A24ADEAFDEB2751 /* crypto_auth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_auth.c; path = src/libsodium/crypto_auth/crypto_auth.c; sourceTree = "<group>"; };
 		D85E053D988BCF5AF6A7EEE58F5B6729 /* BTCOpcode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCOpcode.m; path = CoreBitcoin/BTCOpcode.m; sourceTree = "<group>"; };
 		D9049314811DF305A1CF659DF30B8580 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "include-ios/openssl/buffer.h"; sourceTree = "<group>"; };
 		D91F3413E896DA1B53937D0B892D615F /* ZXEmailAddressResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEmailAddressResultParser.m; path = ZXingObjC/client/result/ZXEmailAddressResultParser.m; sourceTree = "<group>"; };
@@ -1765,11 +1766,11 @@
 		D99E2EB0F3848E49530CB8F752AF9919 /* ZXByteMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXByteMatrix.h; path = ZXingObjC/core/ZXByteMatrix.h; sourceTree = "<group>"; };
 		D99F8E6F667AD189BAEDCF6F09D49A79 /* ZXRSSExpandedDecodedNumeric.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedDecodedNumeric.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedNumeric.m; sourceTree = "<group>"; };
 		D9AE6258A77FBC6A00B5D020E2C83C44 /* BTCProtocolBuffers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCProtocolBuffers.m; path = CoreBitcoin/BTCProtocolBuffers.m; sourceTree = "<group>"; };
-		D9DE093F1EAFFF7DF081EFF8CBE17706 /* blake2b-compress-ssse3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-compress-ssse3.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c"; sourceTree = "<group>"; };
-		DA485BF1DEE8DA39B8E370547553F252 /* shorthash_siphashx24_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shorthash_siphashx24_ref.c; path = src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c; sourceTree = "<group>"; };
+		D9DE093F1EAFFF7DF081EFF8CBE17706 /* blake2b-compress-ssse3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "blake2b-compress-ssse3.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c"; sourceTree = "<group>"; };
+		DA485BF1DEE8DA39B8E370547553F252 /* shorthash_siphashx24_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = shorthash_siphashx24_ref.c; path = src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c; sourceTree = "<group>"; };
 		DB56253D7F81D6B47214683D3B2A2982 /* BTCHashID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCHashID.h; path = CoreBitcoin/BTCHashID.h; sourceTree = "<group>"; };
-		DB6C8867248021891A038DC6086BECBC /* crypto_secretbox.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_secretbox.c; path = src/libsodium/crypto_secretbox/crypto_secretbox.c; sourceTree = "<group>"; };
-		DBA70B3011B78B9D8E49509F344C808E /* liblibsodium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = liblibsodium.a; path = liblibsodium.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6C8867248021891A038DC6086BECBC /* crypto_secretbox.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_secretbox.c; path = src/libsodium/crypto_secretbox/crypto_secretbox.c; sourceTree = "<group>"; };
+		DBA70B3011B78B9D8E49509F344C808E /* liblibsodium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibsodium.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCF581693166BAC0BE3CD10244028C5 /* int128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = int128.h; path = src/libsodium/crypto_stream/aes128ctr/nacl/int128.h; sourceTree = "<group>"; };
 		DBF49B4FCD80C01B0C35EF0811117E1F /* ZXPDF417DetectionResultColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417DetectionResultColumn.m; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultColumn.m; sourceTree = "<group>"; };
 		DC2215F115F2F9AC7DFEDE37A95C0B08 /* NAScrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAScrypt.m; path = NAChloride/NAScrypt.m; sourceTree = "<group>"; };
@@ -1779,7 +1780,7 @@
 		DCCCFEB1B04CE949229D351B0A6D8350 /* ZXBinaryBitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBinaryBitmap.h; path = ZXingObjC/core/ZXBinaryBitmap.h; sourceTree = "<group>"; };
 		DCD926E798838BF9267EFD7FEB76CD22 /* sse2_64_32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sse2_64_32.h; path = src/libsodium/include/sodium/private/sse2_64_32.h; sourceTree = "<group>"; };
 		DDD9032714ECF30667F2D9BF045F693F /* crypto_aead_aes256gcm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_aes256gcm.h; path = src/libsodium/include/sodium/crypto_aead_aes256gcm.h; sourceTree = "<group>"; };
-		DDECF4A7075C27844C787D275133CC32 /* blake2b-compress-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-compress-ref.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c"; sourceTree = "<group>"; };
+		DDECF4A7075C27844C787D275133CC32 /* blake2b-compress-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "blake2b-compress-ref.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c"; sourceTree = "<group>"; };
 		DE58A9F74B2A07ACE225E3D0FE989CB6 /* crypto_scalarmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_scalarmult.h; path = src/libsodium/include/sodium/crypto_scalarmult.h; sourceTree = "<group>"; };
 		DE7C4F2D0F919B71569A8D8532F37E6E /* export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = export.h; path = src/libsodium/include/sodium/export.h; sourceTree = "<group>"; };
 		DEC1066049E79E9E35C02059A08E09F1 /* BTCProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCProtocolBuffers.h; path = CoreBitcoin/BTCProtocolBuffers.h; sourceTree = "<group>"; };
@@ -1792,12 +1793,12 @@
 		E0CCC32D1594154CE7321AC46E598274 /* ZXEncodeHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEncodeHints.h; path = ZXingObjC/core/ZXEncodeHints.h; sourceTree = "<group>"; };
 		E0E6D833F0E413F5C8309688BDAF3DE4 /* ZXAI01AndOtherAIs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01AndOtherAIs.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01AndOtherAIs.m; sourceTree = "<group>"; };
 		E116CCF7DF29EC599012285D10657A98 /* NAInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAInterface.m; path = NAChloride/NAInterface.m; sourceTree = "<group>"; };
-		E1458A35258EF6B4579B80C96B0811D6 /* salsa20_xmm6.c */ = {isa = PBXFileReference; includeInIndex = 1; name = salsa20_xmm6.c; path = src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c; sourceTree = "<group>"; };
+		E1458A35258EF6B4579B80C96B0811D6 /* salsa20_xmm6.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = salsa20_xmm6.c; path = src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c; sourceTree = "<group>"; };
 		E18346B4E74159572FD8D9709EC0C114 /* BTCPriceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPriceSource.h; path = CoreBitcoin/BTCPriceSource.h; sourceTree = "<group>"; };
-		E1D2823CD30170D9E4C5A4D3A1092691 /* blake2b-compress-sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-compress-sse41.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.c"; sourceTree = "<group>"; };
+		E1D2823CD30170D9E4C5A4D3A1092691 /* blake2b-compress-sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "blake2b-compress-sse41.c"; path = "src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.c"; sourceTree = "<group>"; };
 		E26707967CA51C73EDD1785728973DDD /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
 		E2A18E8812E5754A175FA348ECCF17EF /* u0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = u0.h; path = src/libsodium/crypto_stream/chacha20/dolbeau/u0.h; sourceTree = "<group>"; };
-		E2FC259C1598A7546EDBE4D0E395B134 /* stream_aes128ctr_nacl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stream_aes128ctr_nacl.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/stream_aes128ctr_nacl.c; sourceTree = "<group>"; };
+		E2FC259C1598A7546EDBE4D0E395B134 /* stream_aes128ctr_nacl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream_aes128ctr_nacl.c; path = src/libsodium/crypto_stream/aes128ctr/nacl/stream_aes128ctr_nacl.c; sourceTree = "<group>"; };
 		E300E0B53BE21127008B8A5FCEFBCCAF /* ZXPDF417DetectionResultRowIndicatorColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DetectionResultRowIndicatorColumn.h; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResultRowIndicatorColumn.h; sourceTree = "<group>"; };
 		E31CB4DB475C904C7C2C85705CD0512E /* BTCSignatureHashType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCSignatureHashType.h; path = CoreBitcoin/BTCSignatureHashType.h; sourceTree = "<group>"; };
 		E37BF919B63B0D388F8CA813C5C59243 /* BTCOpcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCOpcode.h; path = CoreBitcoin/BTCOpcode.h; sourceTree = "<group>"; };
@@ -1812,7 +1813,7 @@
 		E6CF9E2E902720102ACF4FE6C0296C39 /* ZXUPCAReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCAReader.h; path = ZXingObjC/oned/ZXUPCAReader.h; sourceTree = "<group>"; };
 		E6D6A05D5384B7E66D30808505A98EFC /* ZXUPCEANWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEANWriter.m; path = ZXingObjC/oned/ZXUPCEANWriter.m; sourceTree = "<group>"; };
 		E6F9C2079A726EE79E1CC2746211CAFE /* ZXRSSFinderPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSFinderPattern.m; path = ZXingObjC/oned/rss/ZXRSSFinderPattern.m; sourceTree = "<group>"; };
-		E70615E92FC1C498C93B65BCAB8B1BAD /* curve25519_ref10.c */ = {isa = PBXFileReference; includeInIndex = 1; name = curve25519_ref10.c; path = src/libsodium/crypto_core/curve25519/ref10/curve25519_ref10.c; sourceTree = "<group>"; };
+		E70615E92FC1C498C93B65BCAB8B1BAD /* curve25519_ref10.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = curve25519_ref10.c; path = src/libsodium/crypto_core/curve25519/ref10/curve25519_ref10.c; sourceTree = "<group>"; };
 		E7234434767714473FE688A2B5491C17 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		E7E4AECB174E494B43846DB99DF536AE /* ZXOneDimensionalCodeWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXOneDimensionalCodeWriter.m; path = ZXingObjC/oned/ZXOneDimensionalCodeWriter.m; sourceTree = "<group>"; };
 		E8072702CA419172EA8E6640DE79753C /* ZXIntArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXIntArray.m; path = ZXingObjC/common/ZXIntArray.m; sourceTree = "<group>"; };
@@ -1826,8 +1827,8 @@
 		EC6DE621E3082CF82DB0BC4541394597 /* ZXRSSExpandedDecodedChar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedDecodedChar.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedChar.m; sourceTree = "<group>"; };
 		ED0AA1662E3344086B15CD4E3D4B342D /* BTCAddressSubclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCAddressSubclass.h; path = CoreBitcoin/BTCAddressSubclass.h; sourceTree = "<group>"; };
 		ED8347E18F64E170BEA607558205421E /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = "include-ios/openssl/txt_db.h"; sourceTree = "<group>"; };
-		EDAB246134325FC5BA313F7E93C1B89A /* scalarmult_curve25519.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scalarmult_curve25519.c; path = src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c; sourceTree = "<group>"; };
-		EDF6AE71D5098C52EEDFF2A3A2F480BD /* sign_ed25519.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sign_ed25519.c; path = src/libsodium/crypto_sign/ed25519/sign_ed25519.c; sourceTree = "<group>"; };
+		EDAB246134325FC5BA313F7E93C1B89A /* scalarmult_curve25519.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scalarmult_curve25519.c; path = src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c; sourceTree = "<group>"; };
+		EDF6AE71D5098C52EEDFF2A3A2F480BD /* sign_ed25519.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sign_ed25519.c; path = src/libsodium/crypto_sign/ed25519/sign_ed25519.c; sourceTree = "<group>"; };
 		EE13E0956B81ADB4A1BF9D8E060CBABF /* ZXBitSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitSource.m; path = ZXingObjC/common/ZXBitSource.m; sourceTree = "<group>"; };
 		EE3804E76C2AB5ED0F64B93B902B1675 /* pbkdf2-sha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pbkdf2-sha256.h"; path = "src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.h"; sourceTree = "<group>"; };
 		EE68AF62D92C2302516DBD73D033F2A2 /* crypto_aead_xchacha20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_xchacha20poly1305.h; path = src/libsodium/include/sodium/crypto_aead_xchacha20poly1305.h; sourceTree = "<group>"; };
@@ -1835,13 +1836,13 @@
 		EEC752931CA74E26574C9222356C3D24 /* BTCProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCProcessor.m; path = CoreBitcoin/BTCProcessor.m; sourceTree = "<group>"; };
 		EECF65C616A5549B2483E5C017AB56DB /* ZXEAN8Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN8Reader.h; path = ZXingObjC/oned/ZXEAN8Reader.h; sourceTree = "<group>"; };
 		EEFA5D2C5E7DAEB5E946010BCD5FD863 /* ZXDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDimension.h; path = ZXingObjC/core/ZXDimension.h; sourceTree = "<group>"; };
-		EFCFDB6966DB52BD257B7C4065F995B7 /* core_hchacha20.c */ = {isa = PBXFileReference; includeInIndex = 1; name = core_hchacha20.c; path = src/libsodium/crypto_core/hchacha20/core_hchacha20.c; sourceTree = "<group>"; };
+		EFCFDB6966DB52BD257B7C4065F995B7 /* core_hchacha20.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = core_hchacha20.c; path = src/libsodium/crypto_core/hchacha20/core_hchacha20.c; sourceTree = "<group>"; };
 		EFE194DCAE346721FF7CD4DF02BD78CA /* ZXAI01393xDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI01393xDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01393xDecoder.h; sourceTree = "<group>"; };
 		F057241C64197EDB173FC9CD9ED5A31E /* OpenSSL-Universal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.xcconfig"; sourceTree = "<group>"; };
 		F05D2BA7279542393194CAE32B98F88C /* ZXDataMatrixX12Encoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixX12Encoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixX12Encoder.m; sourceTree = "<group>"; };
 		F0687BC6E04070BEEDC2E996684D05D2 /* ZXParsedResultType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXParsedResultType.h; path = ZXingObjC/client/result/ZXParsedResultType.h; sourceTree = "<group>"; };
-		F1153EABA079D4D0424397F9ADA4815D /* crypto_kx.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_kx.c; path = src/libsodium/crypto_kx/crypto_kx.c; sourceTree = "<group>"; };
-		F11EEBE512E7BFC346977BC6B78C908A /* aead_chacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aead_chacha20poly1305.c; path = src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c; sourceTree = "<group>"; };
+		F1153EABA079D4D0424397F9ADA4815D /* crypto_kx.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_kx.c; path = src/libsodium/crypto_kx/crypto_kx.c; sourceTree = "<group>"; };
+		F11EEBE512E7BFC346977BC6B78C908A /* aead_chacha20poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aead_chacha20poly1305.c; path = src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c; sourceTree = "<group>"; };
 		F12B9D4950417E115E77CC0525969905 /* BTCEncryptedBackup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCEncryptedBackup.h; path = CoreBitcoin/BTCEncryptedBackup.h; sourceTree = "<group>"; };
 		F1380529B9C3610C279E1E3F2401D294 /* ZXAddressBookDoCoMoResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAddressBookDoCoMoResultParser.m; path = ZXingObjC/client/result/ZXAddressBookDoCoMoResultParser.m; sourceTree = "<group>"; };
 		F1724E09E1F9CB66CC79985B7CD1567A /* ZXGeoParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGeoParsedResult.m; path = ZXingObjC/client/result/ZXGeoParsedResult.m; sourceTree = "<group>"; };
@@ -1864,7 +1865,7 @@
 		F51111ED64035296B2E8D4E8EBB9B860 /* BTCQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCQRCode.m; path = CoreBitcoin/BTCQRCode.m; sourceTree = "<group>"; };
 		F534D1564542D8153E46D7CA3FB7C4C3 /* ZXGenericMultipleBarcodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGenericMultipleBarcodeReader.h; path = ZXingObjC/multi/ZXGenericMultipleBarcodeReader.h; sourceTree = "<group>"; };
 		F584D1C20EBB73F95971E03EA7A95209 /* ZXDataMatrixEdifactEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixEdifactEncoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEdifactEncoder.m; sourceTree = "<group>"; };
-		F5A35F766E1120C8DFADC12B96CA802F /* randombytes_sysrandom.c */ = {isa = PBXFileReference; includeInIndex = 1; name = randombytes_sysrandom.c; path = src/libsodium/randombytes/sysrandom/randombytes_sysrandom.c; sourceTree = "<group>"; };
+		F5A35F766E1120C8DFADC12B96CA802F /* randombytes_sysrandom.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = randombytes_sysrandom.c; path = src/libsodium/randombytes/sysrandom/randombytes_sysrandom.c; sourceTree = "<group>"; };
 		F6226FA443EBE126A5CD5BD5106AA1F1 /* ZXResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXResult.h; path = ZXingObjC/core/ZXResult.h; sourceTree = "<group>"; };
 		F66575C83DB8FFFE000B670945D92490 /* ZXGenericMultipleBarcodeReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGenericMultipleBarcodeReader.m; path = ZXingObjC/multi/ZXGenericMultipleBarcodeReader.m; sourceTree = "<group>"; };
 		F67F932AFC8AA53547F5BD4E37D85D8D /* ZXAztecBinaryShiftToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecBinaryShiftToken.m; path = ZXingObjC/aztec/encoder/ZXAztecBinaryShiftToken.m; sourceTree = "<group>"; };
@@ -1874,7 +1875,7 @@
 		F888308E9451C0BF352121E540ED69EC /* ZXUPCAWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCAWriter.h; path = ZXingObjC/oned/ZXUPCAWriter.h; sourceTree = "<group>"; };
 		F8F9325D2B2F3CE0608A215B3C919167 /* ZXPDF417BarcodeRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BarcodeRow.m; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.m; sourceTree = "<group>"; };
 		F924DAE72609829A379E70FBBD60792D /* ZXUPCAReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCAReader.m; path = ZXingObjC/oned/ZXUPCAReader.m; sourceTree = "<group>"; };
-		FAA44BFA967B828C6CF542E4ED62F7B4 /* fe_frombytes_sandy2x.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fe_frombytes_sandy2x.c; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c; sourceTree = "<group>"; };
+		FAA44BFA967B828C6CF542E4ED62F7B4 /* fe_frombytes_sandy2x.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fe_frombytes_sandy2x.c; path = src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c; sourceTree = "<group>"; };
 		FB027D4B0603743CF992D9BFFC7F5A89 /* ZXBookmarkDoCoMoResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBookmarkDoCoMoResultParser.h; path = ZXingObjC/client/result/ZXBookmarkDoCoMoResultParser.h; sourceTree = "<group>"; };
 		FB1CE7D3DF8EF5DAD7D2F9A3DD074AA3 /* ZXRSSExpandedGeneralAppIdDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedGeneralAppIdDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedGeneralAppIdDecoder.h; sourceTree = "<group>"; };
 		FB3E161223890522081A2BEBF1801BFF /* u1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = u1.h; path = src/libsodium/crypto_stream/salsa20/xmm6int/u1.h; sourceTree = "<group>"; };
@@ -1887,10 +1888,10 @@
 		FE29272767CA7FB2D6CFAB29543A2302 /* crypto_stream_salsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_salsa20.h; path = src/libsodium/include/sodium/crypto_stream_salsa20.h; sourceTree = "<group>"; };
 		FE2C90CEFD1DED475732EA7D4557ECBA /* ZXProductParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXProductParsedResult.m; path = ZXingObjC/client/result/ZXProductParsedResult.m; sourceTree = "<group>"; };
 		FE5CE0BD2A78813A80B8D52AE264CF9F /* ZXUPCEANExtensionSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANExtensionSupport.h; path = ZXingObjC/oned/ZXUPCEANExtensionSupport.h; sourceTree = "<group>"; };
-		FE7DB920816C403D376DEBC88DAB7B39 /* keypair.c */ = {isa = PBXFileReference; includeInIndex = 1; name = keypair.c; path = src/libsodium/crypto_sign/ed25519/ref10/keypair.c; sourceTree = "<group>"; };
+		FE7DB920816C403D376DEBC88DAB7B39 /* keypair.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = keypair.c; path = src/libsodium/crypto_sign/ed25519/ref10/keypair.c; sourceTree = "<group>"; };
 		FE98A924C262F8A75A15915AF5E62432 /* ZXAI01decoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01decoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01decoder.m; sourceTree = "<group>"; };
 		FEF4AA5115BBD096F1E3811639AA55B1 /* blamka-round-ssse3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "blamka-round-ssse3.h"; path = "src/libsodium/crypto_pwhash/argon2/blamka-round-ssse3.h"; sourceTree = "<group>"; };
-		FF15620BC82EC4A91D269CDC14BCF559 /* core_hsalsa20_ref2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = core_hsalsa20_ref2.c; path = src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c; sourceTree = "<group>"; };
+		FF15620BC82EC4A91D269CDC14BCF559 /* core_hsalsa20_ref2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = core_hsalsa20_ref2.c; path = src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c; sourceTree = "<group>"; };
 		FF4A2EE82ED7AE2CAA0844104EE6E787 /* ZXAI01393xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01393xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01393xDecoder.m; sourceTree = "<group>"; };
 		FF6A002B53FAB956E3F87CF120BC687F /* ZXCodaBarReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCodaBarReader.h; path = ZXingObjC/oned/ZXCodaBarReader.h; sourceTree = "<group>"; };
 		FFA1EAD3386C4E7C51F449F6AD6B9700 /* BTCScriptMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCScriptMachine.h; path = CoreBitcoin/BTCScriptMachine.h; sourceTree = "<group>"; };
@@ -1965,7 +1966,6 @@
 				68A8412D4F32B81BB090AE4BB59C2C22 /* SRWebSocket.m */,
 				BE30F6696038B10CBAD21FB92CA6660C /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
@@ -2034,7 +2034,6 @@
 				C31FEF631BB1A856F6719078766F7055 /* NAStream.m */,
 				F1849326914A97C1D935BB62700E025E /* Support Files */,
 			);
-			name = NAChloride;
 			path = NAChloride;
 			sourceTree = "<group>";
 		};
@@ -2267,7 +2266,6 @@
 				5C062C18AFEA2C99EE8745B16CB120D1 /* xor_afternm_aes128ctr.c */,
 				C5F8D6A0490A816A146B71C82262BA59 /* Support Files */,
 			);
-			name = libsodium;
 			path = libsodium;
 			sourceTree = "<group>";
 		};
@@ -2391,7 +2389,6 @@
 				6746778C83396ED7A35FB868DDF4DFCA /* SwiftBridgingHeader.h */,
 				429A0DB2D88E553D78617854CC10FAAA /* Support Files */,
 			);
-			name = CoreBitcoin;
 			path = CoreBitcoin;
 			sourceTree = "<group>";
 		};
@@ -2432,7 +2429,6 @@
 				5D7519192271D005888DBAB18F465EEB /* JSONValueTransformer.m */,
 				DDCBE399BDDF6D8540F8AECDF43979EE /* Support Files */,
 			);
-			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -2443,7 +2439,6 @@
 				A74889B0DA8698FF16999F98CE083AB7 /* ISO8601DateFormatter.m */,
 				40A09AB58C6A91563A6D45130DD8E1E3 /* Support Files */,
 			);
-			name = ISO8601DateFormatter;
 			path = ISO8601DateFormatter;
 			sourceTree = "<group>";
 		};
@@ -3017,7 +3012,6 @@
 				9091C3CF70B50F53DAF05DE8C1114C1D /* Frameworks */,
 				AEBE37FC522564227C89C7A6BC4BE19A /* Support Files */,
 			);
-			name = "OpenSSL-Universal";
 			path = "OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
@@ -3109,7 +3103,6 @@
 				8708091F3F5C4AC831D7A909F8FE25CF /* All */,
 				E672E4C2DEFEF18E607EE272D1A466B4 /* Support Files */,
 			);
-			name = ZXingObjC;
 			path = ZXingObjC;
 			sourceTree = "<group>";
 		};
@@ -4360,7 +4353,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4448,7 +4441,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4472,7 +4465,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4495,7 +4488,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/NAChloride/NAChloride-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4518,7 +4511,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/CoreBitcoin/CoreBitcoin-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4543,7 +4536,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/libsodium/libsodium-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4563,7 +4556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4580,7 +4573,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4605,7 +4598,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -4627,7 +4620,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/CoreBitcoin/CoreBitcoin-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4694,8 +4687,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -4711,7 +4703,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/libsodium/libsodium-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4735,7 +4727,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4758,7 +4750,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4778,7 +4770,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4794,7 +4786,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/NAChloride/NAChloride-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4842,7 +4834,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
