@@ -17,8 +17,8 @@
 #import <CommonCrypto/CommonCrypto.h>
 #import <CommonCrypto/CommonKeyDerivation.h>
 
-#import "NAKeccak.h"
 #import "NASHA3.h"
+#import "NAKeccak.h"
 
 static int N_LIGHT = 1<<12;
 static int P_LIGHT = 6;

@@ -12,7 +12,6 @@
 		C43B8CBE211B34250051B064 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B8CB8211B34240051B064 /* Wallet.m */; };
 		C43B8CBF211B34250051B064 /* NSData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B8CB9211B34240051B064 /* NSData+Bitcoin.m */; };
 		C43B8CC0211B34250051B064 /* NSMutableData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B8CBB211B34250051B064 /* NSMutableData+Bitcoin.m */; };
-		C445C9EF20DC9B1E00FF63C9 /* Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = C445C9ED20DC9B1E00FF63C9 /* Remote.m */; };
 		C445C9F320DC9B4D00FF63C9 /* SocketRocketUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C445C9F120DC9B4D00FF63C9 /* SocketRocketUtility.m */; };
 		C445C9F920E759CD00FF63C9 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C445C9F720E759CC00FF63C9 /* Transaction.m */; };
 		C445CA0820E7742A00FF63C9 /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = C445CA0720E7742A00FF63C9 /* NSString+Base58.m */; };
@@ -22,6 +21,7 @@
 		C4F63AC620AA6756009CF95A /* WebSocketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AC520AA6756009CF95A /* WebSocketClientTests.m */; };
 		C4F63AD120AA6756009CF95A /* WebSocketClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AD020AA6756009CF95A /* WebSocketClientUITests.m */; };
 		E94AA8462355578C009C6F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AA8452355578C009C6F2C /* main.m */; };
+		E94AA859235569C6009C6F2C /* Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = C445C9ED20DC9B1E00FF63C9 /* Remote.m */; };
 		E95CE0C82301511200C9908A /* KeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E95CE0C72301511200C9908A /* KeyStore.m */; };
 		E9A0196722F83481003AE4B8 /* KeyStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A0196622F83481003AE4B8 /* KeyStoreFile.m */; };
 		E9C6A98222FCFD0F0032E2A4 /* NADigest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C6A98122FCFD0F0032E2A4 /* NADigest.m */; };
@@ -427,7 +427,7 @@
 				E9C6A99022FD00150032E2A4 /* sha3.c in Sources */,
 				C43B8CC0211B34250051B064 /* NSMutableData+Bitcoin.m in Sources */,
 				C445C9F320DC9B4D00FF63C9 /* SocketRocketUtility.m in Sources */,
-				C445C9EF20DC9B1E00FF63C9 /* Remote.m in Sources */,
+				E94AA859235569C6009C6F2C /* Remote.m in Sources */,
 				E95CE0C82301511200C9908A /* KeyStore.m in Sources */,
 				E9C6A99F22FD5BBE0032E2A4 /* KeccakF-1600-opt32.c in Sources */,
 				C445CA0820E7742A00FF63C9 /* NSString+Base58.m in Sources */,
