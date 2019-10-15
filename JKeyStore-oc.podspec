@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "PointZ" => "zhoudiancheng0803@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/HFJingchuang/JKeyStore-oc.git", :tag => "#{s.version}" }
-  s.source_files = "WebSocketClient/*.{h,m}","WebSocketClient/jingtum-lib/*.{h,m}", "WebSocketClient/WebSocket/*.{h,m}", "WebSocketClient/jingtum-lib/Keccak/*.{h,m}"
+  s.source_files = "WebSocketClient/*.{h,m}","WebSocketClient/jingtum-lib/*.{h,m}", "WebSocketClient/WebSocket/*.{h,m}"
   s.ios.deployment_target = '10.0'
   s.frameworks   = 'UIKit'
   s.requires_arc = true

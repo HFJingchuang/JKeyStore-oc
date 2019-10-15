@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		123CB8ECEEC011B05AB31423 /* libPods-WebSocketClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A57CD9387842338E78D4445 /* libPods-WebSocketClient.a */; };
 		C43B8CB4211B31FB0051B064 /* Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B8CB3211B31FB0051B064 /* Seed.m */; };
 		C43B8CBD211B34250051B064 /* Keypairs.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B8CB6211B34230051B064 /* Keypairs.m */; };
 		C43B8CBE211B34250051B064 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B8CB8211B34240051B064 /* Wallet.m */; };
@@ -18,21 +17,11 @@
 		C445C9F920E759CD00FF63C9 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C445C9F720E759CC00FF63C9 /* Transaction.m */; };
 		C445CA0820E7742A00FF63C9 /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = C445CA0720E7742A00FF63C9 /* NSString+Base58.m */; };
 		C445CA0B20E7751C00FF63C9 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = C445CA0A20E7751C00FF63C9 /* NSData+Hash.m */; };
-		C445CA1620E7AA2900FF63C9 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C445CA1420E7AA2900FF63C9 /* libcrypto.a */; };
-		C445CA1720E7AA2900FF63C9 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C445CA1520E7AA2900FF63C9 /* libssl.a */; };
 		C44BE4D8212AE3CD0012F47D /* Serializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BE4D5212AE3CC0012F47D /* Serializer.m */; };
 		C44BE4D9212AE3CD0012F47D /* TumAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BE4D7212AE3CC0012F47D /* TumAmount.m */; };
 		C4F63AC620AA6756009CF95A /* WebSocketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AC520AA6756009CF95A /* WebSocketClientTests.m */; };
 		C4F63AD120AA6756009CF95A /* WebSocketClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AD020AA6756009CF95A /* WebSocketClientUITests.m */; };
 		E94AA8462355578C009C6F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AA8452355578C009C6F2C /* main.m */; };
-		E94AA84A23555EA2009C6F2C /* libCoreBitcoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84923555EA2009C6F2C /* libCoreBitcoin.a */; };
-		E94AA84C23555EA2009C6F2C /* libISO8601DateFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84B23555EA2009C6F2C /* libISO8601DateFormatter.a */; };
-		E94AA84E23555EA2009C6F2C /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84D23555EA2009C6F2C /* libJSONModel.a */; };
-		E94AA85023555EA2009C6F2C /* liblibsodium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84F23555EA2009C6F2C /* liblibsodium.a */; };
-		E94AA85223555EA2009C6F2C /* libNAChloride.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85123555EA2009C6F2C /* libNAChloride.a */; };
-		E94AA85423555EA2009C6F2C /* libPods-WebSocketClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85323555EA2009C6F2C /* libPods-WebSocketClient.a */; };
-		E94AA85623555EA2009C6F2C /* libSocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85523555EA2009C6F2C /* libSocketRocket.a */; };
-		E94AA85823555EA2009C6F2C /* libZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85723555EA2009C6F2C /* libZXingObjC.a */; };
 		E95CE0C82301511200C9908A /* KeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E95CE0C72301511200C9908A /* KeyStore.m */; };
 		E9A0196722F83481003AE4B8 /* KeyStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A0196622F83481003AE4B8 /* KeyStoreFile.m */; };
 		E9C6A98222FCFD0F0032E2A4 /* NADigest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C6A98122FCFD0F0032E2A4 /* NADigest.m */; };
@@ -62,36 +51,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A57CD9387842338E78D4445 /* libPods-WebSocketClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebSocketClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF2D816B254EF37937CA50 /* Pods-WebSocketClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSocketClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebSocketClient/Pods-WebSocketClient.debug.xcconfig"; sourceTree = "<group>"; };
-		C43B8CB2211B31FB0051B064 /* Seed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Seed.h; path = "WebSocketClient/jingtum-lib/Seed.h"; sourceTree = SOURCE_ROOT; };
-		C43B8CB3211B31FB0051B064 /* Seed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Seed.m; path = "WebSocketClient/jingtum-lib/Seed.m"; sourceTree = SOURCE_ROOT; };
-		C43B8CB5211B34230051B064 /* NSData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Bitcoin.h"; path = "WebSocketClient/jingtum-lib/NSData+Bitcoin.h"; sourceTree = SOURCE_ROOT; };
-		C43B8CB6211B34230051B064 /* Keypairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Keypairs.m; path = "WebSocketClient/jingtum-lib/Keypairs.m"; sourceTree = SOURCE_ROOT; };
-		C43B8CB7211B34240051B064 /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wallet.h; path = "WebSocketClient/jingtum-lib/Wallet.h"; sourceTree = SOURCE_ROOT; };
-		C43B8CB8211B34240051B064 /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wallet.m; path = "WebSocketClient/jingtum-lib/Wallet.m"; sourceTree = SOURCE_ROOT; };
-		C43B8CB9211B34240051B064 /* NSData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Bitcoin.m"; path = "WebSocketClient/jingtum-lib/NSData+Bitcoin.m"; sourceTree = SOURCE_ROOT; };
-		C43B8CBA211B34240051B064 /* NSMutableData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+Bitcoin.h"; path = "WebSocketClient/jingtum-lib/NSMutableData+Bitcoin.h"; sourceTree = SOURCE_ROOT; };
-		C43B8CBB211B34250051B064 /* NSMutableData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+Bitcoin.m"; path = "WebSocketClient/jingtum-lib/NSMutableData+Bitcoin.m"; sourceTree = SOURCE_ROOT; };
-		C43B8CBC211B34250051B064 /* Keypairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keypairs.h; path = "WebSocketClient/jingtum-lib/Keypairs.h"; sourceTree = SOURCE_ROOT; };
-		C445C9ED20DC9B1E00FF63C9 /* Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Remote.m; path = "WebSocketClient/jingtum-lib/Remote.m"; sourceTree = SOURCE_ROOT; };
-		C445C9EE20DC9B1E00FF63C9 /* Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Remote.h; path = "WebSocketClient/jingtum-lib/Remote.h"; sourceTree = SOURCE_ROOT; };
+		C43B8CB2211B31FB0051B064 /* Seed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Seed.h; sourceTree = "<group>"; };
+		C43B8CB3211B31FB0051B064 /* Seed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Seed.m; sourceTree = "<group>"; };
+		C43B8CB5211B34230051B064 /* NSData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bitcoin.h"; sourceTree = "<group>"; };
+		C43B8CB6211B34230051B064 /* Keypairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keypairs.m; sourceTree = "<group>"; };
+		C43B8CB7211B34240051B064 /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallet.h; sourceTree = "<group>"; };
+		C43B8CB8211B34240051B064 /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.m; sourceTree = "<group>"; };
+		C43B8CB9211B34240051B064 /* NSData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bitcoin.m"; sourceTree = "<group>"; };
+		C43B8CBA211B34240051B064 /* NSMutableData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Bitcoin.h"; sourceTree = "<group>"; };
+		C43B8CBB211B34250051B064 /* NSMutableData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Bitcoin.m"; sourceTree = "<group>"; };
+		C43B8CBC211B34250051B064 /* Keypairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keypairs.h; sourceTree = "<group>"; };
+		C445C9ED20DC9B1E00FF63C9 /* Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remote.m; sourceTree = "<group>"; };
+		C445C9EE20DC9B1E00FF63C9 /* Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remote.h; sourceTree = "<group>"; };
 		C445C9F120DC9B4D00FF63C9 /* SocketRocketUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketRocketUtility.m; sourceTree = "<group>"; };
 		C445C9F220DC9B4D00FF63C9 /* SocketRocketUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketRocketUtility.h; sourceTree = "<group>"; };
-		C445C9F720E759CC00FF63C9 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = "WebSocketClient/jingtum-lib/Transaction.m"; sourceTree = SOURCE_ROOT; };
-		C445C9F820E759CC00FF63C9 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = "WebSocketClient/jingtum-lib/Transaction.h"; sourceTree = SOURCE_ROOT; };
-		C445CA0620E7742A00FF63C9 /* NSString+Base58.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+Base58.h"; path = "WebSocketClient/jingtum-lib/NSString+Base58.h"; sourceTree = SOURCE_ROOT; };
-		C445CA0720E7742A00FF63C9 /* NSString+Base58.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base58.m"; path = "WebSocketClient/jingtum-lib/NSString+Base58.m"; sourceTree = SOURCE_ROOT; };
-		C445CA0920E7751C00FF63C9 /* NSData+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+Hash.h"; path = "WebSocketClient/jingtum-lib/NSData+Hash.h"; sourceTree = SOURCE_ROOT; };
-		C445CA0A20E7751C00FF63C9 /* NSData+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+Hash.m"; path = "WebSocketClient/jingtum-lib/NSData+Hash.m"; sourceTree = SOURCE_ROOT; };
-		C445CA0C20E7840800FF63C9 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = WebSocketClient/libs/libssl.a; sourceTree = "<group>"; };
-		C445CA0D20E7840900FF63C9 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = WebSocketClient/libs/libcrypto.a; sourceTree = "<group>"; };
-		C445CA1420E7AA2900FF63C9 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
-		C445CA1520E7AA2900FF63C9 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
-		C44BE4D4212AE3CB0012F47D /* Serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Serializer.h; path = "WebSocketClient/jingtum-lib/Serializer.h"; sourceTree = SOURCE_ROOT; };
-		C44BE4D5212AE3CC0012F47D /* Serializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Serializer.m; path = "WebSocketClient/jingtum-lib/Serializer.m"; sourceTree = SOURCE_ROOT; };
-		C44BE4D6212AE3CC0012F47D /* TumAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TumAmount.h; path = "WebSocketClient/jingtum-lib/TumAmount.h"; sourceTree = SOURCE_ROOT; };
-		C44BE4D7212AE3CC0012F47D /* TumAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TumAmount.m; path = "WebSocketClient/jingtum-lib/TumAmount.m"; sourceTree = SOURCE_ROOT; };
+		C445C9F720E759CC00FF63C9 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		C445C9F820E759CC00FF63C9 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		C445CA0620E7742A00FF63C9 /* NSString+Base58.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
+		C445CA0720E7742A00FF63C9 /* NSString+Base58.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base58.m"; sourceTree = "<group>"; };
+		C445CA0920E7751C00FF63C9 /* NSData+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
+		C445CA0A20E7751C00FF63C9 /* NSData+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
+		C44BE4D4212AE3CB0012F47D /* Serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serializer.h; sourceTree = "<group>"; };
+		C44BE4D5212AE3CC0012F47D /* Serializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Serializer.m; sourceTree = "<group>"; };
+		C44BE4D6212AE3CC0012F47D /* TumAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumAmount.h; sourceTree = "<group>"; };
+		C44BE4D7212AE3CC0012F47D /* TumAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumAmount.m; sourceTree = "<group>"; };
 		C4F63AA920AA6756009CF95A /* WebSocketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSocketClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F63AC120AA6756009CF95A /* WebSocketClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F63AC520AA6756009CF95A /* WebSocketClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketClientTests.m; sourceTree = "<group>"; };
@@ -99,21 +83,13 @@
 		C4F63ACC20AA6756009CF95A /* WebSocketClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F63AD020AA6756009CF95A /* WebSocketClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketClientUITests.m; sourceTree = "<group>"; };
 		C4F63AD220AA6756009CF95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E90694EA230A4518007F71EA /* NAKeccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAKeccak.h; path = "WebSocketClient/jingtum-lib/Keccak/NAKeccak.h"; sourceTree = SOURCE_ROOT; };
+		E90694EA230A4518007F71EA /* NAKeccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKeccak.h; sourceTree = "<group>"; };
 		E94AA8452355578C009C6F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E94AA84723555A24009C6F2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E94AA84923555EA2009C6F2C /* libCoreBitcoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCoreBitcoin.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA84B23555EA2009C6F2C /* libISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libISO8601DateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA84D23555EA2009C6F2C /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA84F23555EA2009C6F2C /* liblibsodium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibsodium.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA85123555EA2009C6F2C /* libNAChloride.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNAChloride.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA85323555EA2009C6F2C /* libPods-WebSocketClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-WebSocketClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA85523555EA2009C6F2C /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E94AA85723555EA2009C6F2C /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E95CE0C72301511200C9908A /* KeyStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyStore.m; path = "WebSocketClient/jingtum-lib/KeyStore.m"; sourceTree = SOURCE_ROOT; };
-		E95CE0C92301515700C9908A /* KeyStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyStore.h; path = "WebSocketClient/jingtum-lib/KeyStore.h"; sourceTree = SOURCE_ROOT; };
-		E9A0196522F8338C003AE4B8 /* KeyStoreFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyStoreFile.h; path = "WebSocketClient/jingtum-lib/KeyStoreFile.h"; sourceTree = SOURCE_ROOT; };
-		E9A0196622F83481003AE4B8 /* KeyStoreFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyStoreFile.m; path = "WebSocketClient/jingtum-lib/KeyStoreFile.m"; sourceTree = SOURCE_ROOT; };
+		E95CE0C72301511200C9908A /* KeyStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyStore.m; sourceTree = "<group>"; };
+		E95CE0C92301515700C9908A /* KeyStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyStore.h; sourceTree = "<group>"; };
+		E9A0196522F8338C003AE4B8 /* KeyStoreFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyStoreFile.h; sourceTree = "<group>"; };
+		E9A0196622F83481003AE4B8 /* KeyStoreFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyStoreFile.m; sourceTree = "<group>"; };
 		E9C6A98022FCFCFA0032E2A4 /* NADigest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NADigest.h; sourceTree = "<group>"; };
 		E9C6A98122FCFD0F0032E2A4 /* NADigest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NADigest.m; sourceTree = "<group>"; };
 		E9C6A98422FCFDF30032E2A4 /* NAKeccak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAKeccak.m; sourceTree = "<group>"; };
@@ -142,17 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E94AA84A23555EA2009C6F2C /* libCoreBitcoin.a in Frameworks */,
-				E94AA84C23555EA2009C6F2C /* libISO8601DateFormatter.a in Frameworks */,
-				E94AA84E23555EA2009C6F2C /* libJSONModel.a in Frameworks */,
-				E94AA85023555EA2009C6F2C /* liblibsodium.a in Frameworks */,
-				E94AA85223555EA2009C6F2C /* libNAChloride.a in Frameworks */,
-				E94AA85423555EA2009C6F2C /* libPods-WebSocketClient.a in Frameworks */,
-				E94AA85623555EA2009C6F2C /* libSocketRocket.a in Frameworks */,
-				E94AA85823555EA2009C6F2C /* libZXingObjC.a in Frameworks */,
-				C445CA1620E7AA2900FF63C9 /* libcrypto.a in Frameworks */,
-				C445CA1720E7AA2900FF63C9 /* libssl.a in Frameworks */,
-				123CB8ECEEC011B05AB31423 /* libPods-WebSocketClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,26 +138,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4695A8C8A3DB1EB5785027B8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E94AA84923555EA2009C6F2C /* libCoreBitcoin.a */,
-				E94AA84B23555EA2009C6F2C /* libISO8601DateFormatter.a */,
-				E94AA84D23555EA2009C6F2C /* libJSONModel.a */,
-				E94AA84F23555EA2009C6F2C /* liblibsodium.a */,
-				E94AA85123555EA2009C6F2C /* libNAChloride.a */,
-				E94AA85323555EA2009C6F2C /* libPods-WebSocketClient.a */,
-				E94AA85523555EA2009C6F2C /* libSocketRocket.a */,
-				E94AA85723555EA2009C6F2C /* libZXingObjC.a */,
-				C445CA0D20E7840900FF63C9 /* libcrypto.a */,
-				C445CA0C20E7840800FF63C9 /* libssl.a */,
-				C445CA1420E7AA2900FF63C9 /* libcrypto.a */,
-				7A57CD9387842338E78D4445 /* libPods-WebSocketClient.a */,
-				C445CA1520E7AA2900FF63C9 /* libssl.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7B26EABE27102E16A2044D61 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,7 +150,27 @@
 		C445C9EC20DC9AFA00FF63C9 /* jingtum-lib */ = {
 			isa = PBXGroup;
 			children = (
-				E9C6A98922FCFF300032E2A4 /* Keccak */,
+				E9C6A98B22FCFFCB0032E2A4 /* KeccakNISTInterface.h */,
+				E9C6A98C22FCFFCB0032E2A4 /* KeccakNISTInterface.c */,
+				E9C6A99822FD5AF70032E2A4 /* brg_endian.h */,
+				E9C6A99922FD5B210032E2A4 /* KeccakF-1600-32-rvk.h */,
+				E9C6A99A22FD5B490032E2A4 /* KeccakF-1600-32-s1.h */,
+				E9C6A99C22FD5B790032E2A4 /* KeccakF-1600-32.h */,
+				E9C6A99B22FD5B610032E2A4 /* KeccakF-1600-32-s2.h */,
+				E9C6A99D22FD5B9B0032E2A4 /* KeccakF-1600-opt32-settings.h */,
+				E9C6A99E22FD5BBE0032E2A4 /* KeccakF-1600-opt32.c */,
+				E9C6A9A022FD5BD70032E2A4 /* KeccakF-1600-unrolling.h */,
+				E9C6A99422FD01570032E2A4 /* KeccakF-1600-interface.h */,
+				E9C6A99122FD00830032E2A4 /* KeccakSponge.h */,
+				E9C6A99222FD00830032E2A4 /* KeccakSponge.c */,
+				E9C6A98E22FD00150032E2A4 /* sha3.h */,
+				E9C6A98F22FD00150032E2A4 /* sha3.c */,
+				E90694EA230A4518007F71EA /* NAKeccak.h */,
+				E9C6A98422FCFDF30032E2A4 /* NAKeccak.m */,
+				E9C6A98022FCFCFA0032E2A4 /* NADigest.h */,
+				E9C6A98122FCFD0F0032E2A4 /* NADigest.m */,
+				E9C6A98622FCFEB20032E2A4 /* NASHA3.h */,
+				E9C6A98722FCFEBE0032E2A4 /* NASHA3.m */,
 				C445C9EE20DC9B1E00FF63C9 /* Remote.h */,
 				C445C9ED20DC9B1E00FF63C9 /* Remote.m */,
 				C445C9F820E759CC00FF63C9 /* Transaction.h */,
@@ -253,7 +218,6 @@
 				C4F63ACF20AA6756009CF95A /* WebSocketClientUITests */,
 				C4F63AAA20AA6756009CF95A /* Products */,
 				7B26EABE27102E16A2044D61 /* Pods */,
-				4695A8C8A3DB1EB5785027B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,34 +258,6 @@
 				C4F63AD220AA6756009CF95A /* Info.plist */,
 			);
 			path = WebSocketClientUITests;
-			sourceTree = "<group>";
-		};
-		E9C6A98922FCFF300032E2A4 /* Keccak */ = {
-			isa = PBXGroup;
-			children = (
-				E9C6A98B22FCFFCB0032E2A4 /* KeccakNISTInterface.h */,
-				E9C6A98C22FCFFCB0032E2A4 /* KeccakNISTInterface.c */,
-				E9C6A99822FD5AF70032E2A4 /* brg_endian.h */,
-				E9C6A99922FD5B210032E2A4 /* KeccakF-1600-32-rvk.h */,
-				E9C6A99A22FD5B490032E2A4 /* KeccakF-1600-32-s1.h */,
-				E9C6A99C22FD5B790032E2A4 /* KeccakF-1600-32.h */,
-				E9C6A99B22FD5B610032E2A4 /* KeccakF-1600-32-s2.h */,
-				E9C6A99D22FD5B9B0032E2A4 /* KeccakF-1600-opt32-settings.h */,
-				E9C6A99E22FD5BBE0032E2A4 /* KeccakF-1600-opt32.c */,
-				E9C6A9A022FD5BD70032E2A4 /* KeccakF-1600-unrolling.h */,
-				E9C6A99422FD01570032E2A4 /* KeccakF-1600-interface.h */,
-				E9C6A99122FD00830032E2A4 /* KeccakSponge.h */,
-				E9C6A99222FD00830032E2A4 /* KeccakSponge.c */,
-				E9C6A98E22FD00150032E2A4 /* sha3.h */,
-				E9C6A98F22FD00150032E2A4 /* sha3.c */,
-				E90694EA230A4518007F71EA /* NAKeccak.h */,
-				E9C6A98422FCFDF30032E2A4 /* NAKeccak.m */,
-				E9C6A98022FCFCFA0032E2A4 /* NADigest.h */,
-				E9C6A98122FCFD0F0032E2A4 /* NADigest.m */,
-				E9C6A98622FCFEB20032E2A4 /* NASHA3.h */,
-				E9C6A98722FCFEBE0032E2A4 /* NASHA3.m */,
-			);
-			path = Keccak;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,10 +518,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 arm64e armv7";
 			};
 			name = Debug;
 		};
@@ -632,11 +571,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7";
 			};
 			name = Release;
 		};
