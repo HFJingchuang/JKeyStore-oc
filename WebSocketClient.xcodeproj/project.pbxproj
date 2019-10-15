@@ -22,14 +22,17 @@
 		C445CA1720E7AA2900FF63C9 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C445CA1520E7AA2900FF63C9 /* libssl.a */; };
 		C44BE4D8212AE3CD0012F47D /* Serializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BE4D5212AE3CC0012F47D /* Serializer.m */; };
 		C44BE4D9212AE3CD0012F47D /* TumAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BE4D7212AE3CC0012F47D /* TumAmount.m */; };
-		C4F63AAE20AA6756009CF95A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AAD20AA6756009CF95A /* AppDelegate.m */; };
-		C4F63AB120AA6756009CF95A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AB020AA6756009CF95A /* ViewController.m */; };
-		C4F63AB420AA6756009CF95A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F63AB220AA6756009CF95A /* Main.storyboard */; };
-		C4F63AB620AA6756009CF95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F63AB520AA6756009CF95A /* Assets.xcassets */; };
-		C4F63AB920AA6756009CF95A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F63AB720AA6756009CF95A /* LaunchScreen.storyboard */; };
-		C4F63ABC20AA6756009CF95A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63ABB20AA6756009CF95A /* main.m */; };
 		C4F63AC620AA6756009CF95A /* WebSocketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AC520AA6756009CF95A /* WebSocketClientTests.m */; };
 		C4F63AD120AA6756009CF95A /* WebSocketClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F63AD020AA6756009CF95A /* WebSocketClientUITests.m */; };
+		E94AA8462355578C009C6F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94AA8452355578C009C6F2C /* main.m */; };
+		E94AA84A23555EA2009C6F2C /* libCoreBitcoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84923555EA2009C6F2C /* libCoreBitcoin.a */; };
+		E94AA84C23555EA2009C6F2C /* libISO8601DateFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84B23555EA2009C6F2C /* libISO8601DateFormatter.a */; };
+		E94AA84E23555EA2009C6F2C /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84D23555EA2009C6F2C /* libJSONModel.a */; };
+		E94AA85023555EA2009C6F2C /* liblibsodium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA84F23555EA2009C6F2C /* liblibsodium.a */; };
+		E94AA85223555EA2009C6F2C /* libNAChloride.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85123555EA2009C6F2C /* libNAChloride.a */; };
+		E94AA85423555EA2009C6F2C /* libPods-WebSocketClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85323555EA2009C6F2C /* libPods-WebSocketClient.a */; };
+		E94AA85623555EA2009C6F2C /* libSocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85523555EA2009C6F2C /* libSocketRocket.a */; };
+		E94AA85823555EA2009C6F2C /* libZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AA85723555EA2009C6F2C /* libZXingObjC.a */; };
 		E95CE0C82301511200C9908A /* KeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E95CE0C72301511200C9908A /* KeyStore.m */; };
 		E9A0196722F83481003AE4B8 /* KeyStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A0196622F83481003AE4B8 /* KeyStoreFile.m */; };
 		E9C6A98222FCFD0F0032E2A4 /* NADigest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C6A98122FCFD0F0032E2A4 /* NADigest.m */; };
@@ -90,15 +93,6 @@
 		C44BE4D6212AE3CC0012F47D /* TumAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TumAmount.h; path = "WebSocketClient/jingtum-lib/TumAmount.h"; sourceTree = SOURCE_ROOT; };
 		C44BE4D7212AE3CC0012F47D /* TumAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TumAmount.m; path = "WebSocketClient/jingtum-lib/TumAmount.m"; sourceTree = SOURCE_ROOT; };
 		C4F63AA920AA6756009CF95A /* WebSocketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSocketClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4F63AAC20AA6756009CF95A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C4F63AAD20AA6756009CF95A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4F63AAF20AA6756009CF95A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4F63AB020AA6756009CF95A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C4F63AB320AA6756009CF95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4F63AB520AA6756009CF95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4F63AB820AA6756009CF95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C4F63ABA20AA6756009CF95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4F63ABB20AA6756009CF95A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F63AC120AA6756009CF95A /* WebSocketClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F63AC520AA6756009CF95A /* WebSocketClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketClientTests.m; sourceTree = "<group>"; };
 		C4F63AC720AA6756009CF95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +100,16 @@
 		C4F63AD020AA6756009CF95A /* WebSocketClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketClientUITests.m; sourceTree = "<group>"; };
 		C4F63AD220AA6756009CF95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90694EA230A4518007F71EA /* NAKeccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAKeccak.h; path = "WebSocketClient/jingtum-lib/Keccak/NAKeccak.h"; sourceTree = SOURCE_ROOT; };
+		E94AA8452355578C009C6F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94AA84723555A24009C6F2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94AA84923555EA2009C6F2C /* libCoreBitcoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCoreBitcoin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA84B23555EA2009C6F2C /* libISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libISO8601DateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA84D23555EA2009C6F2C /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA84F23555EA2009C6F2C /* liblibsodium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibsodium.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA85123555EA2009C6F2C /* libNAChloride.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNAChloride.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA85323555EA2009C6F2C /* libPods-WebSocketClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-WebSocketClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA85523555EA2009C6F2C /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94AA85723555EA2009C6F2C /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95CE0C72301511200C9908A /* KeyStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyStore.m; path = "WebSocketClient/jingtum-lib/KeyStore.m"; sourceTree = SOURCE_ROOT; };
 		E95CE0C92301515700C9908A /* KeyStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyStore.h; path = "WebSocketClient/jingtum-lib/KeyStore.h"; sourceTree = SOURCE_ROOT; };
 		E9A0196522F8338C003AE4B8 /* KeyStoreFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyStoreFile.h; path = "WebSocketClient/jingtum-lib/KeyStoreFile.h"; sourceTree = SOURCE_ROOT; };
@@ -138,6 +142,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94AA84A23555EA2009C6F2C /* libCoreBitcoin.a in Frameworks */,
+				E94AA84C23555EA2009C6F2C /* libISO8601DateFormatter.a in Frameworks */,
+				E94AA84E23555EA2009C6F2C /* libJSONModel.a in Frameworks */,
+				E94AA85023555EA2009C6F2C /* liblibsodium.a in Frameworks */,
+				E94AA85223555EA2009C6F2C /* libNAChloride.a in Frameworks */,
+				E94AA85423555EA2009C6F2C /* libPods-WebSocketClient.a in Frameworks */,
+				E94AA85623555EA2009C6F2C /* libSocketRocket.a in Frameworks */,
+				E94AA85823555EA2009C6F2C /* libZXingObjC.a in Frameworks */,
 				C445CA1620E7AA2900FF63C9 /* libcrypto.a in Frameworks */,
 				C445CA1720E7AA2900FF63C9 /* libssl.a in Frameworks */,
 				123CB8ECEEC011B05AB31423 /* libPods-WebSocketClient.a in Frameworks */,
@@ -164,11 +176,19 @@
 		4695A8C8A3DB1EB5785027B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E94AA84923555EA2009C6F2C /* libCoreBitcoin.a */,
+				E94AA84B23555EA2009C6F2C /* libISO8601DateFormatter.a */,
+				E94AA84D23555EA2009C6F2C /* libJSONModel.a */,
+				E94AA84F23555EA2009C6F2C /* liblibsodium.a */,
+				E94AA85123555EA2009C6F2C /* libNAChloride.a */,
+				E94AA85323555EA2009C6F2C /* libPods-WebSocketClient.a */,
+				E94AA85523555EA2009C6F2C /* libSocketRocket.a */,
+				E94AA85723555EA2009C6F2C /* libZXingObjC.a */,
 				C445CA0D20E7840900FF63C9 /* libcrypto.a */,
 				C445CA0C20E7840800FF63C9 /* libssl.a */,
 				C445CA1420E7AA2900FF63C9 /* libcrypto.a */,
-				C445CA1520E7AA2900FF63C9 /* libssl.a */,
 				7A57CD9387842338E78D4445 /* libPods-WebSocketClient.a */,
+				C445CA1520E7AA2900FF63C9 /* libssl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,15 +272,8 @@
 			children = (
 				C445C9F020DC9B4D00FF63C9 /* WebSocket */,
 				C445C9EC20DC9AFA00FF63C9 /* jingtum-lib */,
-				C4F63AAC20AA6756009CF95A /* AppDelegate.h */,
-				C4F63AAD20AA6756009CF95A /* AppDelegate.m */,
-				C4F63AAF20AA6756009CF95A /* ViewController.h */,
-				C4F63AB020AA6756009CF95A /* ViewController.m */,
-				C4F63AB220AA6756009CF95A /* Main.storyboard */,
-				C4F63AB520AA6756009CF95A /* Assets.xcassets */,
-				C4F63AB720AA6756009CF95A /* LaunchScreen.storyboard */,
-				C4F63ABA20AA6756009CF95A /* Info.plist */,
-				C4F63ABB20AA6756009CF95A /* main.m */,
+				E94AA8452355578C009C6F2C /* main.m */,
+				E94AA84723555A24009C6F2C /* Info.plist */,
 			);
 			path = WebSocketClient;
 			sourceTree = "<group>";
@@ -418,9 +431,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F63AB920AA6756009CF95A /* LaunchScreen.storyboard in Resources */,
-				C4F63AB620AA6756009CF95A /* Assets.xcassets in Resources */,
-				C4F63AB420AA6756009CF95A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,15 +483,12 @@
 				E9C6A98222FCFD0F0032E2A4 /* NADigest.m in Sources */,
 				C445CA0B20E7751C00FF63C9 /* NSData+Hash.m in Sources */,
 				E9C6A98822FCFEBE0032E2A4 /* NASHA3.m in Sources */,
-				C4F63AB120AA6756009CF95A /* ViewController.m in Sources */,
 				C44BE4D9212AE3CD0012F47D /* TumAmount.m in Sources */,
 				C44BE4D8212AE3CD0012F47D /* Serializer.m in Sources */,
 				C43B8CBF211B34250051B064 /* NSData+Bitcoin.m in Sources */,
 				E9C6A98D22FCFFCB0032E2A4 /* KeccakNISTInterface.c in Sources */,
-				C4F63ABC20AA6756009CF95A /* main.m in Sources */,
 				E9C6A99322FD00830032E2A4 /* KeccakSponge.c in Sources */,
 				E9C6A99022FD00150032E2A4 /* sha3.c in Sources */,
-				C4F63AAE20AA6756009CF95A /* AppDelegate.m in Sources */,
 				C43B8CC0211B34250051B064 /* NSMutableData+Bitcoin.m in Sources */,
 				C445C9F320DC9B4D00FF63C9 /* SocketRocketUtility.m in Sources */,
 				C445C9EF20DC9B1E00FF63C9 /* Remote.m in Sources */,
@@ -489,6 +496,7 @@
 				E9C6A99F22FD5BBE0032E2A4 /* KeccakF-1600-opt32.c in Sources */,
 				C445CA0820E7742A00FF63C9 /* NSString+Base58.m in Sources */,
 				C43B8CBD211B34250051B064 /* Keypairs.m in Sources */,
+				E94AA8462355578C009C6F2C /* main.m in Sources */,
 				E9A0196722F83481003AE4B8 /* KeyStoreFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,25 +532,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		C4F63AB220AA6756009CF95A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4F63AB320AA6756009CF95A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C4F63AB720AA6756009CF95A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4F63AB820AA6756009CF95A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		C4F63AD320AA6756009CF95A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -576,6 +565,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -631,6 +621,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -643,6 +634,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -770,7 +762,7 @@
 				C4F63AD420AA6756009CF95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C4F63AD520AA6756009CF95A /* Build configuration list for PBXNativeTarget "WebSocketClient" */ = {
 			isa = XCConfigurationList;
@@ -779,7 +771,7 @@
 				C4F63AD720AA6756009CF95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C4F63AD820AA6756009CF95A /* Build configuration list for PBXNativeTarget "WebSocketClientTests" */ = {
 			isa = XCConfigurationList;
@@ -788,7 +780,7 @@
 				C4F63ADA20AA6756009CF95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C4F63ADB20AA6756009CF95A /* Build configuration list for PBXNativeTarget "WebSocketClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -797,7 +789,7 @@
 				C4F63ADD20AA6756009CF95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
